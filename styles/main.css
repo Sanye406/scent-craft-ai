@@ -17,6 +17,7 @@
 }
 
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+picture{display:block}
 html,body{height:100%}
 body{
   background:#F7F2E9;
@@ -63,7 +64,8 @@ body::before{
   display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;
 }
 .brand{display:flex;align-items:center;gap:12px}
-.brand-logo{width:40px;height:40px}
+.brand picture{display:flex;align-items:center;justify-content:center}
+.brand-logo{width:40px;height:40px;min-width:40px;min-height:40px}
 .brand-text h1{font-family:"Playfair Display",serif;font-size:22px;letter-spacing:.12em;line-height:1;color:var(--ink)}
 .brand-text p{font-family:"ZCOOL KuaiLe",cursive;font-size:11px;color:var(--gold);letter-spacing:.08em;margin-top:2px}
 .nav-tabs{display:flex;gap:4px;flex-wrap:wrap}
@@ -287,9 +289,12 @@ body::before{
   width:42%;height:100%;
   display:flex;align-items:center;justify-content:center;
 }
+.feature-image-container picture{
+  width:100%;height:100%;display:flex;align-items:center;justify-content:center;
+}
 .feature-image{
   width:100%;height:100%;object-fit:contain;
-  opacity:.5;
+  opacity:.5;min-height:100px;
 }
 .feature-travel .feature-image-container{
   right:0;
@@ -661,7 +666,8 @@ body::before{
 }
 .product-card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:var(--rouge)}
 .product-image{height:200px;overflow:hidden;background:var(--paper-dark)}
-.product-image img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.product-image picture{width:100%;height:100%;display:block}
+.product-image img{width:100%;height:100%;object-fit:cover;transition:transform .4s;min-height:200px}
 .product-card:hover .product-image img{transform:scale(1.05)}
 .product-info{padding:20px}
 .product-info h3{font-family:"Playfair Display",serif;font-size:20px;color:var(--ink);letter-spacing:.06em;font-weight:500;margin-bottom:8px}
@@ -675,7 +681,8 @@ body::before{
 }
 .custom-card:hover{box-shadow:var(--shadow)}
 .custom-image{flex:0 0 320px;height:240px;overflow:hidden}
-.custom-image img{width:100%;height:100%;object-fit:cover}
+.custom-image picture{width:100%;height:100%;display:block}
+.custom-image img{width:100%;height:100%;object-fit:cover;min-height:240px}
 .custom-info{padding:32px;flex:1}
 .custom-info h3{font-family:"Playfair Display",serif;font-size:24px;color:var(--ink);letter-spacing:.08em;font-weight:500;margin-bottom:12px}
 .custom-info p{font-size:14px;color:var(--ink-soft);line-height:1.8;margin-bottom:16px}
