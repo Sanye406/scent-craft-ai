@@ -1,0 +1,2410 @@
+[
+  {
+    "id": "f001",
+    "name": "汉建宁宫中香",
+    "source": "《香乘》卷十四",
+    "method": "为细末炼蜜和匀窨月余作丸或饼爇之",
+    "efficacy": "宫廷清供",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "零陵香",
+        "role": "臣",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i011",
+        "property": "温"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "沉香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "白芷",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i024",
+        "property": "温"
+      },
+      {
+        "name": "茴香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i026",
+        "property": "温"
+      },
+      {
+        "name": "甘松香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "温"
+      },
+      {
+        "name": "枣",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i120",
+        "property": "温"
+      },
+      {
+        "name": "乳香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i003",
+        "property": "温"
+      },
+      {
+        "name": "茅香",
+        "role": "使",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i019",
+        "property": "温"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f002",
+    "name": "唐开元宫中香",
+    "source": "《香乘》卷十四",
+    "method": "为细末炼蜜和匀窨月余取出旋入脑麝丸之",
+    "efficacy": "宫廷御用",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "芒硝",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i109",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "甲香",
+        "role": "佐",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i018",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f003",
+    "name": "宫中香",
+    "source": "《香乘》卷十四",
+    "method": "为细末生蜜和匀贮磁器地窨一月旋丸爇之",
+    "efficacy": "宫廷清供",
+    "ingredients": [
+      {
+        "name": "檀香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "沉香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "沉香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      },
+      {
+        "name": "甲香",
+        "role": "使",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i018",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f004",
+    "name": "江南李主帐中香",
+    "source": "《香乘》卷十四",
+    "method": "以香投油封浸百日爇之入蔷薇水更佳",
+    "efficacy": "帐中安神",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "苏合香",
+        "role": "臣",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i008",
+        "property": "温"
+      },
+      {
+        "name": "蜂蜜",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i103",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ],
+    "formula_type": "经典精简方",
+    "compatibility_note": "古籍原方为极简配伍，仅含君、臣、佐三类，保留原貌未增补",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f005",
+    "name": "宣和御制香",
+    "source": "《香乘》卷十四",
+    "method": "用皂儿白水浸软和香，入金颜脑麝研匀，用香蜡脱印，以朱砂为衣，窨干烧",
+    "efficacy": "御制佳品",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "丁香",
+        "role": "臣",
+        "amount": 1.5,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      },
+      {
+        "name": "金颜香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i014",
+        "property": "平"
+      },
+      {
+        "name": "背阴草",
+        "role": "佐",
+        "amount": 1,
+        "unit": "g",
+        "material_id": "i132",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "甲香",
+        "role": "佐",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i018",
+        "property": "平"
+      },
+      {
+        "name": "朱砂",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i111",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "庄重",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f006",
+    "name": "赵清献公香",
+    "source": "《香乘》卷十四",
+    "method": "碾取细末以熟蜜拌匀入新磁罐内封窨十日",
+    "efficacy": "清雅安神",
+    "ingredients": [
+      {
+        "name": "檀香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "乳香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i003",
+        "property": "平"
+      },
+      {
+        "name": "玄参",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i079",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ],
+    "formula_type": "经典精简方",
+    "compatibility_note": "古籍原方为极简配伍，仅含君、臣、佐三类，保留原貌未增补",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f007",
+    "name": "婴香",
+    "source": "《香乘》卷十五",
+    "method": "五味相和令匀入炼白蜜六两去沫入马牙硝半两绵滤过极冷乃和诸香令稍硬丸如梧子大",
+    "efficacy": "清新宜人",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "丁香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      },
+      {
+        "name": "甲香",
+        "role": "使",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i018",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f008",
+    "name": "清真香",
+    "source": "《陈氏香谱》卷十七",
+    "method": "为细末炼蜜搜成厚片切作小块子磁盒封贮土中窨十日",
+    "efficacy": "清新安神",
+    "ingredients": [
+      {
+        "name": "麝香檀",
+        "role": "君",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i039",
+        "property": "温"
+      },
+      {
+        "name": "乳香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i003",
+        "property": "温"
+      },
+      {
+        "name": "干竹炭",
+        "role": "佐",
+        "amount": 100,
+        "unit": "g",
+        "material_id": "i119",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ],
+    "formula_type": "经典精简方",
+    "compatibility_note": "古籍原方为极简配伍，仅含君、臣、佐三类，保留原貌未增补",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f009",
+    "name": "清妙香",
+    "source": "《陈氏香谱》卷十七",
+    "method": "细末次入脑麝拌匀白蜜五两重汤煮热放温更入焰硝半两同和磁器窨一月取出爇之",
+    "efficacy": "清新醒脑",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "芒硝",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i109",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.3,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "使",
+        "amount": 0.3,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f010",
+    "name": "龙涎香",
+    "source": "《陈氏香谱》卷十七",
+    "method": "为细末皂子脱作饼子",
+    "efficacy": "芳香持久",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "金颜香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i014",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "悠远"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f011",
+    "name": "清心降真香",
+    "source": "《陈氏香谱》卷十八",
+    "method": "为细末炼蜜搜和令匀作饼爇之",
+    "efficacy": "辟恶去秽",
+    "ingredients": [
+      {
+        "name": "降真香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i009",
+        "property": "平"
+      },
+      {
+        "name": "沉香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "沉香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "丁皮",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i117",
+        "property": "平"
+      },
+      {
+        "name": "藿香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i010",
+        "property": "平"
+      },
+      {
+        "name": "甘草",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i087",
+        "property": "平"
+      },
+      {
+        "name": "芒硝",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i109",
+        "property": "平"
+      },
+      {
+        "name": "甘松香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "茅香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i019",
+        "property": "平"
+      },
+      {
+        "name": "麝香木",
+        "role": "使",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i037",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "庄重",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f012",
+    "name": "寿阳公主梅花香",
+    "source": "《陈氏香谱》卷二十",
+    "method": "除丁皮余皆焙干为粗末磁器窨半月爇如常法",
+    "efficacy": "清香如梅",
+    "ingredients": [
+      {
+        "name": "甘松香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "降真香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i009",
+        "property": "平"
+      },
+      {
+        "name": "丁皮",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i117",
+        "property": "平"
+      },
+      {
+        "name": "白芷",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i024",
+        "property": "平"
+      },
+      {
+        "name": "牡丹皮",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i125",
+        "property": "平"
+      },
+      {
+        "name": "藁本",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i130",
+        "property": "平"
+      },
+      {
+        "name": "茴香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i026",
+        "property": "平"
+      },
+      {
+        "name": "白梅",
+        "role": "使",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i124",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f013",
+    "name": "韩魏公浓梅香",
+    "source": "《陈氏香谱》卷二十一",
+    "method": "各为末，麝先细研取腊茶之半汤澄清调麝，次入沉香、丁香、郁金、余茶及定粉共研细，乃入蜜使稀稠得宜收沙瓶器中窨月余取烧",
+    "efficacy": "返魂梅香",
+    "ingredients": [
+      {
+        "name": "丁香",
+        "role": "君",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "温"
+      },
+      {
+        "name": "沉香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "郁金",
+        "role": "臣",
+        "amount": 0.3,
+        "unit": "g",
+        "material_id": "i131",
+        "property": "寒"
+      },
+      {
+        "name": "麝香",
+        "role": "臣",
+        "amount": 0.3,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "温"
+      },
+      {
+        "name": "蜂蜜",
+        "role": "佐",
+        "amount": 30,
+        "unit": "g",
+        "material_id": "i103",
+        "property": "平"
+      },
+      {
+        "name": "定粉",
+        "role": "佐",
+        "amount": 1,
+        "unit": "g",
+        "material_id": "i114",
+        "property": "寒"
+      },
+      {
+        "name": "腊茶末",
+        "role": "使",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i129",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雪天"
+    ],
+    "season_tags": [
+      "冬"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f014",
+    "name": "雪中春信",
+    "source": "《陈氏香谱》卷二十三",
+    "method": "为末炼蜜和饼如棊子大或脱花样烧如常法",
+    "efficacy": "冬日清香",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "回鹘香",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i118",
+        "property": "温"
+      },
+      {
+        "name": "当归",
+        "role": "臣",
+        "amount": 9,
+        "unit": "g",
+        "material_id": "i080",
+        "property": "温"
+      },
+      {
+        "name": "丁香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "温"
+      },
+      {
+        "name": "木香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i013",
+        "property": "温"
+      },
+      {
+        "name": "甘松香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "温"
+      },
+      {
+        "name": "藿香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i010",
+        "property": "温"
+      },
+      {
+        "name": "零陵香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i011",
+        "property": "温"
+      },
+      {
+        "name": "白芷",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i024",
+        "property": "温"
+      },
+      {
+        "name": "官桂",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i081",
+        "property": "温"
+      },
+      {
+        "name": "槟榔",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i082",
+        "property": "温"
+      },
+      {
+        "name": "肉豆蔻",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i083",
+        "property": "温"
+      },
+      {
+        "name": "麝香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "温"
+      },
+      {
+        "name": "附子",
+        "role": "使",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i099",
+        "property": "温"
+      }
+    ],
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "雪天",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f015",
+    "name": "四和香",
+    "source": "《陈氏香谱》卷二十",
+    "method": "如法烧香橙皮荔枝壳樱桃核梨滓甘蔗滓等分为末",
+    "efficacy": "和香宜人",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "甘蔗滓",
+        "role": "臣",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i126",
+        "property": "平"
+      },
+      {
+        "name": "梨滓",
+        "role": "臣",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i121",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "凉"
+      },
+      {
+        "name": "香橙皮",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i127",
+        "property": "平"
+      },
+      {
+        "name": "荔枝香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i048",
+        "property": "平"
+      },
+      {
+        "name": "樱桃核",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i123",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "温"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f016",
+    "name": "宣和贵妃黄氏金香",
+    "source": "《陈氏香谱》卷十六",
+    "method": "为细末炼蜜先和前香后入脑麝为丸大小任意以金箔为衣",
+    "efficacy": "贵妃御用",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      },
+      {
+        "name": "芒硝",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i109",
+        "property": "平"
+      },
+      {
+        "name": "金颜香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i014",
+        "property": "平"
+      },
+      {
+        "name": "丁香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "平"
+      },
+      {
+        "name": "甲香",
+        "role": "使",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i018",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "庄重",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f017",
+    "name": "古龙涎香",
+    "source": "《陈氏香谱》卷十八",
+    "method": "为细末炼蜜和剂脱作花样窨一月或百日",
+    "efficacy": "古雅清香",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "甘松香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "温"
+      },
+      {
+        "name": "丁香",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "温"
+      },
+      {
+        "name": "甲香",
+        "role": "佐",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i018",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "温"
+      }
+    ],
+    "mood_tags": [
+      "悠远",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f018",
+    "name": "白龙涎香",
+    "source": "《陈氏香谱》卷十八",
+    "method": "以寒水石四两煅过同为细末梨汁和为饼子焚爇",
+    "efficacy": "清凉清香",
+    "ingredients": [
+      {
+        "name": "檀香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "乳香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i003",
+        "property": "温"
+      },
+      {
+        "name": "寒水石",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i106",
+        "property": "寒"
+      }
+    ],
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ],
+    "formula_type": "经典精简方",
+    "compatibility_note": "古籍原方为极简配伍，仅含君、臣、佐三类，保留原貌未增补",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f019",
+    "name": "清远香",
+    "source": "《陈氏香谱》卷十六",
+    "method": "为细末炼蜜搜和令匀捻饼或末爇之",
+    "efficacy": "清远提神",
+    "ingredients": [
+      {
+        "name": "甘松香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "平"
+      },
+      {
+        "name": "降真香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i009",
+        "property": "平"
+      },
+      {
+        "name": "白芷",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i024",
+        "property": "平"
+      },
+      {
+        "name": "麝香木",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i037",
+        "property": "平"
+      },
+      {
+        "name": "零陵香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i011",
+        "property": "平"
+      },
+      {
+        "name": "玄参",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i079",
+        "property": "平"
+      },
+      {
+        "name": "丁皮",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i117",
+        "property": "平"
+      },
+      {
+        "name": "藿香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i010",
+        "property": "平"
+      },
+      {
+        "name": "香附子",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i028",
+        "property": "平"
+      },
+      {
+        "name": "茅香",
+        "role": "使",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i019",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f020",
+    "name": "藏春香",
+    "source": "《陈氏香谱》卷二十",
+    "method": "各为细末将蜜入黄甘菊一两四钱玄参三分剉同入瓶内重汤煮半日滤去菊与玄参不用以白梅二十个水煮令浮去核取肉研入熟蜜匀拌众香于瓶内久窨",
+    "efficacy": "春日清香",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "降真香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i009",
+        "property": "温"
+      },
+      {
+        "name": "榄油",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i122",
+        "property": "平"
+      },
+      {
+        "name": "丁香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "温"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.3,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "凉"
+      },
+      {
+        "name": "麝香",
+        "role": "佐",
+        "amount": 0.3,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "温"
+      },
+      {
+        "name": "乳香",
+        "role": "使",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i003",
+        "property": "温"
+      }
+    ],
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "春日",
+      "书房"
+    ],
+    "season_tags": [
+      "春"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f021",
+    "name": "出尘香",
+    "source": "《陈氏香谱》卷二十",
+    "method": "先以白芨煎水捣沉香万杵别研余品同拌令匀微入煎成皂子胶水再捣万杵入石模脱作古龙涎花子",
+    "efficacy": "出尘脱俗",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "温"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "龙脑香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "凉"
+      },
+      {
+        "name": "金颜香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i014",
+        "property": "温"
+      },
+      {
+        "name": "麝香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "温"
+      },
+      {
+        "name": "龙涎香",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i017",
+        "property": "温"
+      }
+    ],
+    "mood_tags": [
+      "悠远",
+      "清雅"
+    ],
+    "scene_tags": [
+      "山林",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f022",
+    "name": "冯仲柔四和香",
+    "source": "《陈氏香谱》卷二十",
+    "method": "用水和慢火煮数时辰许剉为粗末入檀香三钱麝香一钱更以蜜两匙拌匀窨过爇之",
+    "efficacy": "和香宜人",
+    "ingredients": [
+      {
+        "name": "大黄",
+        "role": "君",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i078",
+        "property": "寒"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "藿香",
+        "role": "臣",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i010",
+        "property": "温"
+      },
+      {
+        "name": "玄参",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i079",
+        "property": "寒"
+      },
+      {
+        "name": "麝香",
+        "role": "佐",
+        "amount": 0.3,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "温"
+      },
+      {
+        "name": "蜂蜜",
+        "role": "使",
+        "amount": 30,
+        "unit": "g",
+        "material_id": "i103",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f023",
+    "name": "江南李王煎沉香",
+    "source": "《陈氏香谱》卷十九",
+    "method": "每以沉香一两用鹅梨十枚细研取汁银石器盛之入甑蒸数次以晞为度",
+    "efficacy": "清香持久",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "苏合香",
+        "role": "臣",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i008",
+        "property": "平"
+      },
+      {
+        "name": "鹅梨",
+        "role": "佐",
+        "amount": 50,
+        "unit": "g",
+        "material_id": "i128",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "秋"
+    ],
+    "formula_type": "经典精简方",
+    "compatibility_note": "古籍原方为极简配伍，仅含君、臣、佐三类，保留原貌未增补",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f024",
+    "name": "杨古老龙涎香",
+    "source": "《陈氏香谱》卷十七",
+    "method": "先以沉檀为细末甘松别碾罗候研脑麝极细入甘松内三味再同研分作三分将一分半入沉香末中和合匀入磁瓶密封窨一宿",
+    "efficacy": "清雅持久",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "甘松香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "悠远",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f025",
+    "name": "智月龙涎香",
+    "source": "《陈氏香谱》卷十八",
+    "method": "为细末皂儿胶捣和入臼杵千下花印脱之窨干刷出光慢火云母衬烧",
+    "efficacy": "精致清香",
+    "ingredients": [
+      {
+        "name": "沉香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i001",
+        "property": "平"
+      },
+      {
+        "name": "苏合香",
+        "role": "臣",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i008",
+        "property": "平"
+      },
+      {
+        "name": "木香",
+        "role": "臣",
+        "amount": 1.5,
+        "unit": "g",
+        "material_id": "i013",
+        "property": "平"
+      },
+      {
+        "name": "白芨",
+        "role": "臣",
+        "amount": 4.5,
+        "unit": "g",
+        "material_id": "i104",
+        "property": "平"
+      },
+      {
+        "name": "龙脑香",
+        "role": "佐",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "平"
+      },
+      {
+        "name": "金颜香",
+        "role": "佐",
+        "amount": 1.5,
+        "unit": "g",
+        "material_id": "i014",
+        "property": "平"
+      },
+      {
+        "name": "丁香",
+        "role": "佐",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "平"
+      },
+      {
+        "name": "麝香",
+        "role": "使",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i005",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f026",
+    "name": "苏内翰贫衙香",
+    "source": "《陈氏香谱》卷十八",
+    "method": "为细末炼蜜搜和令匀作饼或散爇之",
+    "efficacy": "文人清供",
+    "ingredients": [
+      {
+        "name": "檀香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "乳香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i003",
+        "property": "温"
+      },
+      {
+        "name": "龙脑香",
+        "role": "臣",
+        "amount": 0.5,
+        "unit": "g",
+        "material_id": "i004",
+        "property": "凉"
+      },
+      {
+        "name": "零陵香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i011",
+        "property": "温"
+      },
+      {
+        "name": "藿香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i010",
+        "property": "温"
+      },
+      {
+        "name": "蜂蜜",
+        "role": "使",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i103",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f027",
+    "name": "梅花香变体",
+    "source": "《陈氏香谱》卷二十",
+    "method": "为细末炼蜜搜和令匀作佩香或饼爇之",
+    "efficacy": "衣香随身",
+    "ingredients": [
+      {
+        "name": "零陵香",
+        "role": "君",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i011",
+        "property": "温"
+      },
+      {
+        "name": "甘松香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "白芷",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i024",
+        "property": "温"
+      },
+      {
+        "name": "藿香",
+        "role": "佐",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i010",
+        "property": "温"
+      },
+      {
+        "name": "丁香",
+        "role": "佐",
+        "amount": 2,
+        "unit": "g",
+        "material_id": "i006",
+        "property": "温"
+      },
+      {
+        "name": "蜂蜜",
+        "role": "使",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i103",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "春日",
+      "卧室"
+    ],
+    "season_tags": [
+      "春"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  },
+  {
+    "id": "f028",
+    "name": "丁晋公清真香",
+    "source": "《陈氏香谱》卷十七",
+    "method": "为细末炼蜜搜成厚片切作小块子磁盒封贮土中窨十日",
+    "efficacy": "清和安神",
+    "ingredients": [
+      {
+        "name": "玄参",
+        "role": "君",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i079",
+        "property": "平"
+      },
+      {
+        "name": "甘松香",
+        "role": "君",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i012",
+        "property": "平"
+      },
+      {
+        "name": "檀香",
+        "role": "臣",
+        "amount": 5,
+        "unit": "g",
+        "material_id": "i002",
+        "property": "温"
+      },
+      {
+        "name": "乳香",
+        "role": "臣",
+        "amount": 3,
+        "unit": "g",
+        "material_id": "i003",
+        "property": "温"
+      },
+      {
+        "name": "藿香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i010",
+        "property": "温"
+      },
+      {
+        "name": "零陵香",
+        "role": "佐",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i011",
+        "property": "温"
+      },
+      {
+        "name": "蜂蜜",
+        "role": "使",
+        "amount": 10,
+        "unit": "g",
+        "material_id": "i103",
+        "property": "平"
+      }
+    ],
+    "mood_tags": [
+      "宁静",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ],
+    "formula_type": "标准配伍方",
+    "compatibility_note": "",
+    "is_creative": false,
+    "ai_confidence": 1,
+    "sensory_text": "",
+    "card_badge": "",
+    "formula_nature": "",
+    "top_note": "",
+    "middle_note": "",
+    "base_note": "",
+    "contraindication": ""
+  }
+]

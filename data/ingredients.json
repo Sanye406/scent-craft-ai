@@ -1,0 +1,3211 @@
+[
+  {
+    "id": "i001",
+    "name": "沉香",
+    "aliases": [
+      "沈水香",
+      "水沈",
+      "蜜香",
+      "栈香",
+      "黄熟香",
+      "青桂香",
+      "鸡骨香",
+      "马蹄香",
+      "蓬莱香",
+      "角沉",
+      "黄沉",
+      "蜡沉",
+      "生结香",
+      "熟结香",
+      "脱结香",
+      "虫漏香",
+      "横隔沉",
+      "鹧鸪斑沉",
+      "沉水香",
+      "黑角沉",
+      "占腊沉香"
+    ],
+    "property": "温",
+    "efficacy": "行气止痛温中止呕",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i002",
+    "name": "檀香",
+    "aliases": [
+      "白檀",
+      "紫真檀",
+      "黄檀",
+      "沙檀",
+      "旃檀",
+      "白檀香",
+      "紫檀",
+      "旃檀香"
+    ],
+    "property": "温",
+    "efficacy": "理气和胃止痛",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i003",
+    "name": "乳香",
+    "aliases": [
+      "熏陆香",
+      "马尾香",
+      "滴乳香"
+    ],
+    "property": "温",
+    "efficacy": "活血止痛消肿",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "庄重",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i004",
+    "name": "龙脑香",
+    "aliases": [
+      "片脑",
+      "冰片",
+      "羯婆罗香",
+      "婆律香",
+      "梅花脑",
+      "速脑",
+      "米脑",
+      "金脚脑",
+      "苍脑",
+      "龙脑",
+      "片白脑子"
+    ],
+    "property": "凉",
+    "efficacy": "开窍醒神清热止痛",
+    "preparation": "研末",
+    "amount_min": 0.01,
+    "amount_max": 0.5,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i005",
+    "name": "麝香",
+    "aliases": [
+      "香麝",
+      "麝父"
+    ],
+    "property": "温",
+    "efficacy": "开窍醒神活血通经",
+    "preparation": "研末",
+    "amount_min": 0.01,
+    "amount_max": 0.5,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "冬"
+    ]
+  },
+  {
+    "id": "i006",
+    "name": "丁香",
+    "aliases": [
+      "丁子香",
+      "鸡舌香",
+      "母丁香"
+    ],
+    "property": "温",
+    "efficacy": "温中降逆散寒止痛",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i007",
+    "name": "安息香",
+    "aliases": [
+      "拙贝罗香"
+    ],
+    "property": "温",
+    "efficacy": "开窍醒神行气活血",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 3,
+    "mood_tags": [
+      "庄重",
+      "悠远"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i008",
+    "name": "苏合香",
+    "aliases": [
+      "苏合油"
+    ],
+    "property": "温",
+    "efficacy": "开窍醒神辟秽止痛",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 2,
+    "mood_tags": [
+      "庄重",
+      "温暖"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i009",
+    "name": "降真香",
+    "aliases": [
+      "紫藤香",
+      "紫润降真香"
+    ],
+    "property": "温",
+    "efficacy": "行气活血止痛",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "悠远"
+    ],
+    "scene_tags": [
+      "山林",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i010",
+    "name": "藿香",
+    "aliases": [
+      "多摩罗跋香",
+      "兜娄婆香",
+      "藿香叶"
+    ],
+    "property": "温",
+    "efficacy": "化湿解暑止呕",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "治愈",
+      "温暖"
+    ],
+    "scene_tags": [
+      "卧室",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i011",
+    "name": "零陵香",
+    "aliases": [
+      "熏草",
+      "蕙草",
+      "燕草",
+      "黄零草"
+    ],
+    "property": "温",
+    "efficacy": "温中辟恶气",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i012",
+    "name": "甘松香",
+    "aliases": [
+      "苦弥哆香",
+      "甘松"
+    ],
+    "property": "温",
+    "efficacy": "理气止痛开郁醒脾",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i013",
+    "name": "木香",
+    "aliases": [
+      "南木香",
+      "广木香"
+    ],
+    "property": "温",
+    "efficacy": "行气止痛健脾消食",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i014",
+    "name": "金颜香",
+    "aliases": [
+      "郁金颜香"
+    ],
+    "property": "温",
+    "efficacy": "聚香辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 3,
+    "mood_tags": [
+      "庄重",
+      "清雅"
+    ],
+    "scene_tags": [
+      "古寺",
+      "茶席"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i015",
+    "name": "笃耨香",
+    "aliases": [
+      "笃耨瓢香"
+    ],
+    "property": "温",
+    "efficacy": "清心行气",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i016",
+    "name": "郁金香",
+    "aliases": [
+      "紫述香"
+    ],
+    "property": "平",
+    "efficacy": "行气解郁凉血",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "悠远"
+    ],
+    "scene_tags": [
+      "书房",
+      "湖畔"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i017",
+    "name": "龙涎香",
+    "aliases": [
+      "龙涎"
+    ],
+    "property": "温",
+    "efficacy": "开窍化痰活血",
+    "preparation": "研末",
+    "amount_min": 0.01,
+    "amount_max": 0.5,
+    "mood_tags": [
+      "神秘",
+      "悠远"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i018",
+    "name": "甲香",
+    "aliases": [
+      "流螺",
+      "制甲香"
+    ],
+    "property": "平",
+    "efficacy": "解毒杀虫",
+    "preparation": "酒蜜煮制",
+    "amount_min": 0.3,
+    "amount_max": 2,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i019",
+    "name": "茅香",
+    "aliases": [
+      "茅香花",
+      "白茅香"
+    ],
+    "property": "温",
+    "efficacy": "温中辟恶气",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "治愈",
+      "温暖"
+    ],
+    "scene_tags": [
+      "卧室",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i020",
+    "name": "排草香",
+    "aliases": [
+      "排香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i021",
+    "name": "艾纳香",
+    "aliases": [
+      "艾蒳香"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "古寺"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i022",
+    "name": "迷迭香",
+    "aliases": [
+      "迷迭"
+    ],
+    "property": "温",
+    "efficacy": "温中止痛",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i023",
+    "name": "芸香",
+    "aliases": [
+      "芸蒿"
+    ],
+    "property": "凉",
+    "efficacy": "清热解毒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i024",
+    "name": "白芷",
+    "aliases": [
+      "芳香",
+      "茝",
+      "莞",
+      "药"
+    ],
+    "property": "温",
+    "efficacy": "祛风止痛消肿",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i025",
+    "name": "都梁香",
+    "aliases": [
+      "兰草",
+      "煎泽草",
+      "孩儿菊"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "春日"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i026",
+    "name": "茴香",
+    "aliases": [
+      "蘹香"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒理气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i027",
+    "name": "杜蘅",
+    "aliases": [
+      "马蹄香",
+      "櫰香"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "卧室",
+      "山林"
+    ],
+    "season_tags": [
+      "春",
+      "冬"
+    ]
+  },
+  {
+    "id": "i028",
+    "name": "香附子",
+    "aliases": [
+      "雀头香",
+      "莎草根"
+    ],
+    "property": "平",
+    "efficacy": "理气解郁止痛",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i029",
+    "name": "白胶香",
+    "aliases": [
+      "枫香脂"
+    ],
+    "property": "平",
+    "efficacy": "活血止痛止血",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i030",
+    "name": "木犀香",
+    "aliases": [
+      "桂花",
+      "岩桂",
+      "七里香"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i031",
+    "name": "奇南香",
+    "aliases": [
+      "伽南香",
+      "茄蓝香",
+      "奇蓝香"
+    ],
+    "property": "温",
+    "efficacy": "行气止痛",
+    "preparation": "研末",
+    "amount_min": 0.1,
+    "amount_max": 2,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i032",
+    "name": "唵叭香",
+    "aliases": [
+      "安巴香"
+    ],
+    "property": "温",
+    "efficacy": "辟邪祛秽",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 3,
+    "mood_tags": [
+      "庄重",
+      "神秘"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i033",
+    "name": "孩儿香",
+    "aliases": [
+      "孩儿土",
+      "孩儿泥",
+      "乌爹泥"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 2,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i034",
+    "name": "蔷薇水",
+    "aliases": [
+      "大食水",
+      "蔷薇露"
+    ],
+    "property": "平",
+    "efficacy": "润肤辟恶气",
+    "preparation": "取露",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "卧室",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i035",
+    "name": "野悉蜜香",
+    "aliases": [
+      "野悉密"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "卧室",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i036",
+    "name": "榄子香",
+    "aliases": [
+      "橄榄香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i037",
+    "name": "麝香木",
+    "aliases": [
+      "麝木"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i038",
+    "name": "麝香草",
+    "aliases": [
+      "红兰香",
+      "金桂香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i039",
+    "name": "麝香檀",
+    "aliases": [
+      "红兜娄香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "庄重",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i040",
+    "name": "栀子花",
+    "aliases": [
+      "蕃栀子",
+      "大食栀子"
+    ],
+    "property": "寒",
+    "efficacy": "清热泻火",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i041",
+    "name": "詹糖香",
+    "aliases": [
+      "詹糖"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i042",
+    "name": "马兜铃",
+    "aliases": [
+      "青木香"
+    ],
+    "property": "寒",
+    "efficacy": "清肺化痰",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清冷",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i043",
+    "name": "必栗香",
+    "aliases": [
+      "化木香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i044",
+    "name": "兜娄香",
+    "aliases": [
+      "兜娄婆香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i045",
+    "name": "耕香",
+    "aliases": [
+      "耕香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i046",
+    "name": "瓶香",
+    "aliases": [
+      "瓶香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i047",
+    "name": "玄台香",
+    "aliases": [
+      "玄台"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i048",
+    "name": "荔枝香",
+    "aliases": [
+      "荔枝壳"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i049",
+    "name": "木兰香",
+    "aliases": [
+      "林兰",
+      "杜兰"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "悠远"
+    ],
+    "scene_tags": [
+      "山林",
+      "书房"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i050",
+    "name": "兰香",
+    "aliases": [
+      "水香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i051",
+    "name": "蕙香",
+    "aliases": [
+      "蕙草"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i052",
+    "name": "蘼芜",
+    "aliases": [
+      "薇芜"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i053",
+    "name": "乌里香",
+    "aliases": [
+      "乌里"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i054",
+    "name": "生香",
+    "aliases": [
+      "生香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i055",
+    "name": "交趾香",
+    "aliases": [
+      "光香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "神秘"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i056",
+    "name": "暂香",
+    "aliases": [
+      "暂香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "活泼"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i057",
+    "name": "生熟速香",
+    "aliases": [
+      "生速香",
+      "熟速香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "悠远"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i058",
+    "name": "白眼香",
+    "aliases": [
+      "白眼"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i059",
+    "name": "水盘香",
+    "aliases": [
+      "水盘"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "湖畔",
+      "书房"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i060",
+    "name": "叶子香",
+    "aliases": [
+      "龙鳞香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "悠远"
+    ],
+    "scene_tags": [
+      "山林",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i061",
+    "name": "紫茸香",
+    "aliases": [
+      "紫茸"
+    ],
+    "property": "温",
+    "efficacy": "行气止痛",
+    "preparation": "研末",
+    "amount_min": 0.1,
+    "amount_max": 1,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i062",
+    "name": "珠子散香",
+    "aliases": [
+      "珠香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.1,
+    "amount_max": 1,
+    "mood_tags": [
+      "清雅",
+      "活泼"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i063",
+    "name": "胆八香",
+    "aliases": [
+      "胆八"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "神秘",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i064",
+    "name": "干岛香",
+    "aliases": [
+      "干岛"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "湖畔",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i065",
+    "name": "象藏香",
+    "aliases": [
+      "象藏"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i066",
+    "name": "涂肌拂手香",
+    "aliases": [
+      "拂手香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i067",
+    "name": "颤风香",
+    "aliases": [
+      "颤风"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "活泼",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i068",
+    "name": "迦阑香",
+    "aliases": [
+      "迦兰"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.1,
+    "amount_max": 1,
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i069",
+    "name": "特遐香",
+    "aliases": [
+      "特遐"
+    ],
+    "property": "平",
+    "efficacy": "辟邪去秽",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "神秘",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i070",
+    "name": "阿勃参香",
+    "aliases": [
+      "阿勃参"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i071",
+    "name": "纳香",
+    "aliases": [
+      "纳香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i072",
+    "name": "娄香",
+    "aliases": [
+      "娄香"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i073",
+    "name": "红娄香",
+    "aliases": [
+      "红娄"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i074",
+    "name": "藒车香",
+    "aliases": [
+      "藒车"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i075",
+    "name": "豆蔻香",
+    "aliases": [
+      "豆蔻"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i076",
+    "name": "思劳香",
+    "aliases": [
+      "思劳"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "悠远"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i077",
+    "name": "熏华香",
+    "aliases": [
+      "熏华"
+    ],
+    "property": "平",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清雅",
+      "活泼"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i078",
+    "name": "大黄",
+    "aliases": [
+      "大黄",
+      "锦纹大黄"
+    ],
+    "property": "寒",
+    "efficacy": "泻热通便",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 10,
+    "mood_tags": [
+      "清冷",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i079",
+    "name": "玄参",
+    "aliases": [
+      "参",
+      "元参"
+    ],
+    "property": "寒",
+    "efficacy": "清热凉血",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i080",
+    "name": "当归",
+    "aliases": [
+      "当归"
+    ],
+    "property": "温",
+    "efficacy": "补血活血",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i081",
+    "name": "官桂",
+    "aliases": [
+      "桂心"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i082",
+    "name": "槟榔",
+    "aliases": [
+      "槟榔"
+    ],
+    "property": "温",
+    "efficacy": "驱虫消积",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "神秘",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i083",
+    "name": "肉豆蔻",
+    "aliases": [
+      "豆蔻"
+    ],
+    "property": "温",
+    "efficacy": "温中涩肠",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i084",
+    "name": "砂仁",
+    "aliases": [
+      "缩砂"
+    ],
+    "property": "温",
+    "efficacy": "化湿开胃",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i085",
+    "name": "白豆蔻",
+    "aliases": [
+      "白蔻"
+    ],
+    "property": "温",
+    "efficacy": "化湿行气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i086",
+    "name": "川芎",
+    "aliases": [
+      "芎藭"
+    ],
+    "property": "温",
+    "efficacy": "活血行气",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "庄重"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i087",
+    "name": "甘草",
+    "aliases": [
+      "甘草",
+      "拣甘草"
+    ],
+    "property": "平",
+    "efficacy": "调和诸药",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "治愈",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i088",
+    "name": "酸枣仁",
+    "aliases": [
+      "枣仁"
+    ],
+    "property": "平",
+    "efficacy": "养心安神",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 10,
+    "mood_tags": [
+      "宁静",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i089",
+    "name": "白术",
+    "aliases": [
+      "白术"
+    ],
+    "property": "温",
+    "efficacy": "健脾益气",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 10,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i090",
+    "name": "防风",
+    "aliases": [
+      "防风"
+    ],
+    "property": "温",
+    "efficacy": "祛风解表",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i091",
+    "name": "茯苓",
+    "aliases": [
+      "茯苓"
+    ],
+    "property": "平",
+    "efficacy": "利水渗湿",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "宁静",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i092",
+    "name": "厚朴",
+    "aliases": [
+      "厚朴"
+    ],
+    "property": "温",
+    "efficacy": "行气消胀",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i093",
+    "name": "陈皮",
+    "aliases": [
+      "陈皮"
+    ],
+    "property": "温",
+    "efficacy": "理气健脾",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i094",
+    "name": "半夏",
+    "aliases": [
+      "半夏"
+    ],
+    "property": "温",
+    "efficacy": "燥湿化痰",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i095",
+    "name": "细辛",
+    "aliases": [
+      "细辛"
+    ],
+    "property": "温",
+    "efficacy": "祛风散寒",
+    "preparation": "研末",
+    "amount_min": 0.1,
+    "amount_max": 1,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i096",
+    "name": "荜茇",
+    "aliases": [
+      "荜茇"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i097",
+    "name": "胡椒",
+    "aliases": [
+      "胡椒"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i098",
+    "name": "干姜",
+    "aliases": [
+      "干姜"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "卧室"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i099",
+    "name": "附子",
+    "aliases": [
+      "附子"
+    ],
+    "property": "温",
+    "efficacy": "回阳救逆",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "庄重",
+      "温暖"
+    ],
+    "scene_tags": [
+      "古寺",
+      "卧室"
+    ],
+    "season_tags": [
+      "冬"
+    ]
+  },
+  {
+    "id": "i100",
+    "name": "肉桂",
+    "aliases": [
+      "肉桂"
+    ],
+    "property": "温",
+    "efficacy": "补火助阳",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i101",
+    "name": "生姜",
+    "aliases": [
+      "生姜"
+    ],
+    "property": "温",
+    "efficacy": "解表散寒",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i102",
+    "name": "大枣",
+    "aliases": [
+      "大枣"
+    ],
+    "property": "温",
+    "efficacy": "补中益气",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i103",
+    "name": "蜂蜜",
+    "aliases": [
+      "白蜜",
+      "蜜"
+    ],
+    "property": "平",
+    "efficacy": "补中润燥",
+    "preparation": "炼蜜",
+    "amount_min": 5,
+    "amount_max": 50,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i104",
+    "name": "白芨",
+    "aliases": [
+      "白及",
+      "白芨末"
+    ],
+    "property": "平",
+    "efficacy": "收敛止血",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i105",
+    "name": "白蔹",
+    "aliases": [
+      "白蔹"
+    ],
+    "property": "微寒",
+    "efficacy": "清热解毒",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清冷",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i106",
+    "name": "寒水石",
+    "aliases": [
+      "寒水石"
+    ],
+    "property": "寒",
+    "efficacy": "清热泻火",
+    "preparation": "煅研",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i107",
+    "name": "滑石",
+    "aliases": [
+      "滑石"
+    ],
+    "property": "寒",
+    "efficacy": "利水通淋",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清冷",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i108",
+    "name": "石膏",
+    "aliases": [
+      "石膏"
+    ],
+    "property": "寒",
+    "efficacy": "清热泻火",
+    "preparation": "煅研",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i109",
+    "name": "芒硝",
+    "aliases": [
+      "焰硝",
+      "牙硝",
+      "马牙硝"
+    ],
+    "property": "寒",
+    "efficacy": "泻热通便",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清冷",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i110",
+    "name": "朴硝",
+    "aliases": [
+      "朴硝"
+    ],
+    "property": "寒",
+    "efficacy": "泻热通便",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清冷",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "雨巷"
+    ],
+    "season_tags": [
+      "夏"
+    ]
+  },
+  {
+    "id": "i111",
+    "name": "朱砂",
+    "aliases": [
+      "朱砂"
+    ],
+    "property": "微寒",
+    "efficacy": "清心镇惊",
+    "preparation": "研末",
+    "amount_min": 0.01,
+    "amount_max": 0.5,
+    "mood_tags": [
+      "神秘",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i112",
+    "name": "银朱",
+    "aliases": [
+      "银朱"
+    ],
+    "property": "温",
+    "efficacy": "攻毒杀虫",
+    "preparation": "研末",
+    "amount_min": 0.01,
+    "amount_max": 0.5,
+    "mood_tags": [
+      "神秘",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i113",
+    "name": "黄丹",
+    "aliases": [
+      "黄丹"
+    ],
+    "property": "微寒",
+    "efficacy": "解毒生肌",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i114",
+    "name": "定粉",
+    "aliases": [
+      "定粉"
+    ],
+    "property": "寒",
+    "efficacy": "解毒生肌",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清冷",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i115",
+    "name": "针砂",
+    "aliases": [
+      "针砂"
+    ],
+    "property": "平",
+    "efficacy": "杀虫消肿",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i116",
+    "name": "金箔",
+    "aliases": [
+      "金箔"
+    ],
+    "property": "平",
+    "efficacy": "镇惊安神",
+    "preparation": "研末",
+    "amount_min": 0.01,
+    "amount_max": 0.5,
+    "mood_tags": [
+      "庄重",
+      "神秘"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i117",
+    "name": "丁皮",
+    "aliases": [
+      "丁皮",
+      "丁香皮"
+    ],
+    "property": "温",
+    "efficacy": "温中散寒",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "卧室",
+      "茶席"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i118",
+    "name": "回鹘香",
+    "aliases": [
+      "回鹘香"
+    ],
+    "property": "温",
+    "efficacy": "辟恶气",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "神秘",
+      "庄重"
+    ],
+    "scene_tags": [
+      "古寺",
+      "书房"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i119",
+    "name": "干竹炭",
+    "aliases": [
+      "干竹炭"
+    ],
+    "property": "平",
+    "efficacy": "吸附异味",
+    "preparation": "烧炭",
+    "amount_min": 10,
+    "amount_max": 100,
+    "mood_tags": [
+      "宁静",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i120",
+    "name": "枣",
+    "aliases": [
+      "枣",
+      "大枣"
+    ],
+    "property": "温",
+    "efficacy": "补中益气",
+    "preparation": "研末",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "温暖",
+      "治愈"
+    ],
+    "scene_tags": [
+      "卧室",
+      "书房"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i121",
+    "name": "梨滓",
+    "aliases": [
+      "梨滓"
+    ],
+    "property": "平",
+    "efficacy": "增香",
+    "preparation": "取滓",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i122",
+    "name": "榄油",
+    "aliases": [
+      "榄油"
+    ],
+    "property": "平",
+    "efficacy": "润滑增香",
+    "preparation": "取油",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i123",
+    "name": "樱桃核",
+    "aliases": [
+      "樱桃核"
+    ],
+    "property": "平",
+    "efficacy": "增香",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "活泼"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i124",
+    "name": "白梅",
+    "aliases": [
+      "白梅"
+    ],
+    "property": "平",
+    "efficacy": "增香",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "夏"
+    ]
+  },
+  {
+    "id": "i125",
+    "name": "牡丹皮",
+    "aliases": [
+      "牡丹皮"
+    ],
+    "property": "微寒",
+    "efficacy": "清热凉血",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "春日"
+    ],
+    "season_tags": [
+      "春",
+      "秋"
+    ]
+  },
+  {
+    "id": "i126",
+    "name": "甘蔗滓",
+    "aliases": [
+      "甘蔗滓"
+    ],
+    "property": "平",
+    "efficacy": "增香",
+    "preparation": "取滓",
+    "amount_min": 1,
+    "amount_max": 10,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i127",
+    "name": "香橙皮",
+    "aliases": [
+      "香橙皮"
+    ],
+    "property": "平",
+    "efficacy": "增香",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "温暖"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i128",
+    "name": "鹅梨",
+    "aliases": [
+      "鹅梨"
+    ],
+    "property": "平",
+    "efficacy": "增香",
+    "preparation": "取汁",
+    "amount_min": 10,
+    "amount_max": 50,
+    "mood_tags": [
+      "清雅",
+      "治愈"
+    ],
+    "scene_tags": [
+      "书房",
+      "卧室"
+    ],
+    "season_tags": [
+      "夏",
+      "秋"
+    ]
+  },
+  {
+    "id": "i129",
+    "name": "腊茶末",
+    "aliases": [
+      "腊茶末"
+    ],
+    "property": "平",
+    "efficacy": "粘合",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "茶席"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  },
+  {
+    "id": "i130",
+    "name": "藁本",
+    "aliases": [
+      "藁本"
+    ],
+    "property": "温",
+    "efficacy": "祛风散寒",
+    "preparation": "研末",
+    "amount_min": 0.5,
+    "amount_max": 5,
+    "mood_tags": [
+      "温暖",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "冬",
+      "春"
+    ]
+  },
+  {
+    "id": "i131",
+    "name": "郁金",
+    "aliases": [
+      "郁金"
+    ],
+    "property": "寒",
+    "efficacy": "活血止痛",
+    "preparation": "研末",
+    "amount_min": 0.3,
+    "amount_max": 3,
+    "mood_tags": [
+      "清冷",
+      "清雅"
+    ],
+    "scene_tags": [
+      "书房",
+      "古寺"
+    ],
+    "season_tags": [
+      "秋",
+      "冬"
+    ]
+  },
+  {
+    "id": "i132",
+    "name": "背阴草",
+    "aliases": [
+      "背阴草"
+    ],
+    "property": "平",
+    "efficacy": "增香",
+    "preparation": "研末",
+    "amount_min": 0.1,
+    "amount_max": 1,
+    "mood_tags": [
+      "清雅",
+      "宁静"
+    ],
+    "scene_tags": [
+      "书房",
+      "山林"
+    ],
+    "season_tags": [
+      "四季"
+    ]
+  }
+]

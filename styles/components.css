@@ -1,0 +1,92 @@
+/* ═══════════════════════════════════════════════════════════════
+   components.css — Design System Component Definitions
+   Auto-extracted from preview/component-*.html
+   DO NOT EDIT MANUALLY — regenerate via extract-components-css.mjs
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── Badge ─────────────────────────────────────────────────── */
+/* @anatomy
+   <span class="label">默认</span><span class="badge badge-default">香道入门</span><span class="badge badge-default">经典配方</span><span class="badge badge-default">养生</span>
+*/
+.badge { display: inline-flex; align-items: center; border-radius: var(--radius-full); padding: 1px var(--space-3); font-size: var(--font-size-caption); font-weight: var(--font-weight-caption); line-height: var(--line-height-caption); white-space: nowrap; flex-shrink: 0; }
+.badge-default { background: var(--surface-dim); color: var(--color-on-surface); }
+.badge-gold { background: transparent; border: 1px solid var(--hx-gold-500); color: var(--hx-gold-700); }
+.badge-solid { background: var(--color-primary); color: #FFFFFF; }
+.badge-md { font-size: var(--font-size-body); line-height: var(--line-height-body); padding: 3px var(--space-3); }
+
+/* ── Button ────────────────────────────────────────────────── */
+/* @anatomy
+   <span class="label">主要操作</span> <button class="btn btn-md btn-primary">探索香方</button> <button class="btn btn-md btn-primary" disabled>探索香方</button>
+*/
+.btn{display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;border:none;cursor:pointer;font-family:var(--font-body);font-size:var(--font-size-body);font-weight:var(--font-weight-h4);transition:background .15s,border-color .15s,filter .15s;flex-shrink:0;text-decoration:none;line-height:1}
+.btn:focus-visible{outline:2px solid var(--ring);outline-offset:2px}
+.btn-sm{height:var(--size-button-sm);font-size:var(--font-size-caption);padding:var(--space-1) var(--space-4);min-width:var(--size-button-sm);border-radius:var(--radius-sm)}
+.btn-md{height:var(--size-button-md);font-size:var(--font-size-body);padding:var(--space-2) var(--space-6);min-width:var(--size-button-md);border-radius:var(--radius-md)}
+.btn-lg{height:var(--size-button-lg);font-size:var(--font-size-lead);padding:var(--space-3) var(--space-6);min-width:var(--size-button-lg);border-radius:var(--radius-lg)}
+.btn-primary{background:var(--color-primary);color:#FFFFFF}
+.btn-primary:hover{filter:brightness(1.08)}
+.btn-secondary{background:var(--color-secondary);color:#FFFFFF}
+.btn-secondary:hover{filter:brightness(1.08)}
+.btn-outline{background:transparent;color:var(--color-on-surface);border:1px solid var(--color-outline)}
+.btn-outline:hover{background:var(--color-surface-container-low)}
+.btn-ghost{background:transparent;color:var(--color-primary);padding:var(--space-1) var(--space-3)}
+.btn-ghost:hover{filter:brightness(1.08)}
+.btn:disabled{opacity:.5;cursor:not-allowed;pointer-events:none}
+
+/* ── Card ──────────────────────────────────────────────────── */
+/* @anatomy
+   <span class="label">默认卡片</span> <div class="card" data-evidence-sample="Default Card"><h3 class="card-title">沉香净气香方</h3><p class="card-body">以海南沉香为主料，辅以白檀、乳香，清雅持久，适宜静心冥想。</p><button class="card-cta">了解详情</button>
+*/
+.card{background:var(--color-card);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-1);transition:box-shadow .15s;flex:1;max-width:480px}
+.card:hover{box-shadow:var(--shadow-2)}
+.card-elevated{box-shadow:var(--shadow-3)}
+.card-elevated:hover{box-shadow:var(--shadow-4)}
+.card-image{width:100%;height:160px;border-radius:var(--radius-md);overflow:hidden;margin-bottom:var(--space-4);background:var(--color-surface-container-low)}
+.card-title{font-family:var(--font-heading);font-size:var(--font-size-h4);font-weight:var(--font-weight-h4);line-height:var(--line-height-h4);color:var(--color-on-surface);margin:0 0 var(--space-2) 0;word-break:keep-all;overflow-wrap:break-word}
+.card-body{font-size:var(--font-size-body);font-weight:var(--font-weight-body);line-height:var(--line-height-body);color:var(--color-on-surface-variant);margin:0 0 var(--space-4) 0}
+.card-cta{display:inline-flex;align-items:center;gap:var(--space-1);font-size:var(--font-size-caption);font-weight:var(--font-weight-eyebrow);color:var(--color-primary);background:none;border:none;cursor:pointer;padding:0;white-space:nowrap;transition:filter .15s}
+.card-cta:hover{filter:brightness(1.1)}
+.card-poem{background:var(--color-surface);border-radius:var(--radius-sm);width:360px;height:640px;padding:var(--space-5);writing-mode:vertical-rl;display:flex;justify-content:center;align-items:center;position:relative;flex-shrink:0}
+.card-poem:hover{filter:brightness(.97)}
+.card-poem-text{font-family:var(--font-heading);font-size:var(--font-size-lead);line-height:2;color:var(--color-on-surface);letter-spacing:.15em}
+.card-poem-seal{position:absolute;bottom:var(--space-6);left:var(--space-6);width:48px;height:48px;border:2px solid var(--color-primary);border-radius:var(--radius-sm);display:flex;align-items:center;justify-content:center;font-family:var(--font-heading);font-size:var(--font-size-caption);color:var(--color-primary);writing-mode:horizontal-tb}
+
+/* ── Cta Link ──────────────────────────────────────────────── */
+/* @anatomy
+   <span class="label">默认</span> <a href="#" class="cta-link">了解更多</a> <a href="#" class="cta-link">查看香方</a> <a href="#" class="cta-link">返回首页</a>
+*/
+.cta-link { display: inline-flex; align-items: center; gap: var(--space-1); color: var(--color-on-surface); text-decoration: none; font-weight: var(--font-weight-body); font-size: var(--font-size-body); line-height: var(--line-height-body); cursor: pointer; transition: color .15s, border-color .15s; white-space: nowrap; border-bottom: 1px solid transparent; padding-bottom: 1px; }
+    .cta-link:hover { color: var(--color-primary); border-bottom-color: var(--color-primary); }
+    .cta-link.highlight { color: var(--color-primary); font-weight: var(--font-weight-h4); }
+    .cta-link.highlight:hover { color: var(--color-primary); border-bottom-color: var(--color-primary); }
+    .cta-link .arrow { display: inline-block; width: 16px; height: 16px; transition: transform .15s; flex-shrink: 0; }
+    .cta-link:hover .arrow { transform: translateX(4px); }
+    .cta-link[aria-disabled="true"] { color: var(--color-muted-foreground); pointer-events: none; opacity: .5; }
+    .cta-link[aria-disabled="true"]:hover { border-bottom-color: transparent; }
+    .cta-link[aria-disabled="true"]:hover .arrow { transform: none; }
+
+/* ── Input ─────────────────────────────────────────────────── */
+/* @anatomy
+   <span class="label">默认</span><input class="input-field" type="text" placeholder="请输入内容">
+*/
+.input-field { display: block; width: 240px; min-width: 120px; height: var(--size-input-height); padding: var(--space-2) var(--space-4); background: var(--color-card); border: 1px solid var(--color-outline); border-radius: var(--radius-md); color: var(--color-on-surface); font-family: var(--font-family-base); font-size: var(--font-size-body); outline: none; box-sizing: border-box; transition: border-color .15s, box-shadow .15s; flex-shrink: 0; }
+.input-field::placeholder { color: var(--color-muted-foreground); }
+.input-field:hover { border-color: var(--color-on-surface-variant); }
+.input-field:focus { border-color: var(--color-primary); box-shadow: 0 0 0 2px rgba(194,59,34,.15); }
+.input-field:disabled { background: var(--color-surface-dim); color: var(--color-muted-foreground); opacity: .6; cursor: not-allowed; }
+.input-lg { height: 48px; font-size: var(--font-size-lead); }
+
+/* ── Navigation ────────────────────────────────────────────── */
+/* @anatomy
+   <span class="label">Default</span>
+*/
+/* Component definitions — extracted to components.css by deterministic script */
+.nav { display: flex; align-items: center; justify-content: space-between; height: 64px; max-width: var(--max-content-width); margin: 0 auto; padding: 0 var(--space-8); box-sizing: border-box; }
+.nav-brand { font-family: var(--font-heading); font-size: var(--font-size-h4); font-weight: 500; color: var(--color-foreground); text-decoration: none; white-space: nowrap; }
+.nav-links { display: flex; align-items: center; gap: var(--space-5); list-style: none; margin: 0; padding: 0; }
+.nav-links a { font-size: var(--font-size-body); font-weight: 400; color: var(--color-on-surface-variant); text-decoration: none; white-space: nowrap; transition: filter .15s; }
+.nav-links a:hover { filter: brightness(1.08); }
+.nav-cta { display: inline-flex; align-items: center; justify-content: center; height: var(--size-button-sm); min-width: var(--size-button-sm); padding: 0 var(--space-4); font-size: var(--font-size-caption); font-weight: 500; font-family: var(--font-body); color: var(--primary-foreground); background: var(--color-primary); border: none; cursor: pointer; white-space: nowrap; transition: filter .15s; }
+.nav-cta:hover { filter: brightness(1.08); }
+.nav--default { background: rgba(245,240,232,0.85); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 1px solid var(--color-outline); }
+.nav--scrolled { background: rgba(245,240,232,0.95); box-shadow: var(--shadow-2); }

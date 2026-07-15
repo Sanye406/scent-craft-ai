@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI合香 · 让无形变有香 | ScentCraft</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="ink-overlay"></div>
+    <canvas class="particle-canvas" id="particleCanvas"></canvas>
+    <canvas class="smoke-canvas" id="smoke-canvas"></canvas>
+
+    <nav class="topnav" id="topnav">
+        <div class="brand">
+            <img src="images/logo.png" alt="AI合香" class="brand-logo">
+            <div class="brand-text">
+                <h1>AI合香</h1>
+                <p>ScentCraft</p>
+            </div>
+        </div>
+        <div class="nav-tabs">
+            <button class="tab on" data-page="home">首页</button>
+            <button class="tab" data-page="experience">体验</button>
+            <button class="tab" data-page="shop">商城</button>
+            <button class="tab" data-page="gallery">推荐香方</button>
+            <button class="tab" data-page="about">关于</button>
+        </div>
+    </nav>
+
+    <div class="app">
+        <section class="page on" id="page-home">
+            <section class="hero-section">
+                <div class="hero-bg"></div>
+                <canvas class="hero-ink-canvas" id="heroInkCanvas"></canvas>
+                <div class="hero-paper-texture"></div>
+                <div class="hero-radial-gradient"></div>
+                <div class="hero-ink-dots"></div>
+                <div class="hero-content-wrapper">
+                    <div class="hero-content">
+                        <div class="hero-badge">AI调香师</div>
+                        <h1 class="hero-title">
+                            <span class="hero-title-ink">一念起处</span>
+                            <span class="hero-title-rouge">万物入香</span>
+                        </h1>
+                        <div class="hero-subtitle-wrapper">
+                            <span class="hero-subtitle-line"></span>
+                            <p class="hero-subtitle">AI合香 · 让无形变有香</p>
+                            <span class="hero-subtitle-line"></span>
+                        </div>
+                    </div>
+                    <div class="hero-actions">
+                        <button class="btn-primary" data-page="experience">开始调香</button>
+                        <button class="btn-secondary" data-scroll="#concept">了解香道</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="concept-section" id="concept">
+                <div class="section-inner">
+                    <h2 class="section-title">让无形变有香</h2>
+                    <div class="ancient-scroll">
+                        <div class="scroll-book">
+                            <div class="scroll-bookmark">
+                                <div class="bookmark-header"></div>
+                                <div class="bookmark-body">
+                                    <span class="bookmark-char">君</span>
+                                    <span class="bookmark-char">臣</span>
+                                    <span class="bookmark-char">佐</span>
+                                    <span class="bookmark-char">使</span>
+                                </div>
+                                <div class="bookmark-footer"></div>
+                            </div>
+                            <div class="scroll-content">
+                                <div class="wuxing-item">
+                                    <span class="wuxing-label">君</span>
+                                    <span class="wuxing-text">定主韵，全方核心，奠定香之基调</span>
+                                </div>
+                                <div class="wuxing-item">
+                                    <span class="wuxing-label">臣</span>
+                                    <span class="wuxing-text">辅主香，强化特质，辅佐君香之韵</span>
+                                </div>
+                                <div class="wuxing-item">
+                                    <span class="wuxing-label">佐</span>
+                                    <span class="wuxing-text">调层次，调和平衡，丰富香气层次</span>
+                                </div>
+                                <div class="wuxing-item">
+                                    <span class="wuxing-label">使</span>
+                                    <span class="wuxing-text">统全方，引香定韵，统合全方香韵</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="feature-section">
+                <div class="section-inner">
+                    <h2 class="section-title">三种寻香之旅</h2>
+                    
+                    <div class="feature-scene feature-travel" data-page="experience" data-scene="travel">
+                        <div class="feature-image-container">
+                            <img src="images/首页-寻味山河.png" class="feature-image" alt="寻味山河">
+                        </div>
+                        <div class="feature-content feature-content-left">
+                            <svg class="feature-icon-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 5 L25 15 L35 12 L30 22 L40 25 L25 35 L5 25 L15 15 L5 18 L20 5" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                            </svg>
+                            <h3 class="heading-3">寻味山河</h3>
+                            <span class="feature-type">城市香</span>
+                            <p class="body-text">根据城市风物生成地域香方</p>
+                            <button class="btn-secondary">立即体验</button>
+                        </div>
+                    </div>
+
+                    <div class="feature-scene feature-character" data-page="experience" data-scene="character">
+                        <div class="feature-image-container">
+                            <img src="images/首页-觅味灵犀.png" class="feature-image" alt="觅味灵犀">
+                        </div>
+                        <div class="feature-content feature-content-right">
+                            <svg class="feature-icon-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="12" r="6" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                <path d="M14 20 L16 35 M20 20 L20 35 M26 20 L24 35 M14 26 Q20 30 26 26" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                            </svg>
+                            <h3 class="heading-3">觅味灵犀</h3>
+                            <span class="feature-type">人物香</span>
+                            <p class="body-text">根据人物性格、气质生成专属香韵</p>
+                            <button class="btn-primary">立即体验</button>
+                        </div>
+                    </div>
+
+                    <div class="feature-scene feature-memory" data-page="experience" data-scene="memory">
+                        <div class="feature-image-container">
+                            <img src="images/首页-拾味光阴.png" class="feature-image" alt="拾味光阴">
+                        </div>
+                        <div class="feature-content feature-content-left">
+                            <svg class="feature-icon-svg" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 5 L20 15 L35 15 L20 35 L5 15 L20 15" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                <path d="M20 10 L20 15 L30 15" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                <circle cx="20" cy="25" r="3" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                            </svg>
+                            <h3 class="heading-3">拾味光阴</h3>
+                            <span class="feature-type">记忆香</span>
+                            <p class="body-text">根据人生故事、旅行、回忆生成私人香方</p>
+                            <button class="btn-secondary">立即体验</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tech-section">
+                <div class="section-inner">
+                    <h2 class="section-title-center">古籍为骨 · AI为用</h2>
+                    <div class="tech-scroll">
+                        <div class="tech-watermark"></div>
+                        <div class="tech-line-container">
+                            <div class="tech-line"></div>
+                            <div class="tech-step">
+                                <div class="tech-icon">
+                                    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="10" y="15" width="40" height="30" rx="2" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                        <line x1="15" y1="24" x2="45" y2="24" stroke="#8a7a65" stroke-width="1"/>
+                                        <line x1="15" y1="30" x2="40" y2="30" stroke="#8a7a65" stroke-width="1"/>
+                                        <line x1="15" y1="36" x2="35" y2="36" stroke="#8a7a65" stroke-width="1"/>
+                                        <rect x="25" y="8" width="10" height="7" rx="1" fill="#B83D4A"/>
+                                    </svg>
+                                </div>
+                                <h4 class="heading-3">古籍香方数据库</h4>
+                                <p class="helper-text">《香乘》《陈氏香谱》等千年香方知识基准</p>
+                            </div>
+                            <div class="tech-step">
+                                <div class="tech-icon">
+                                    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="30" cy="30" r="18" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                        <circle cx="30" cy="30" r="10" fill="none" stroke="#8a7a65" stroke-width="1"/>
+                                        <path d="M30 12 L30 18 M30 42 L30 48 M12 30 L18 30 M42 30 L48 30" stroke="#B83D4A" stroke-width="2"/>
+                                        <circle cx="30" cy="30" r="4" fill="#B83D4A"/>
+                                    </svg>
+                                </div>
+                                <h4 class="heading-3">RAG知识增强检索</h4>
+                                <p class="helper-text">知识增强检索，精准匹配古方基底</p>
+                            </div>
+                            <div class="tech-step">
+                                <div class="tech-icon">
+                                    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="30" cy="30" r="20" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                        <path d="M22 22 Q30 30 22 38" fill="none" stroke="#8a7a65" stroke-width="1.5"/>
+                                        <path d="M38 22 Q30 30 38 38" fill="none" stroke="#8a7a65" stroke-width="1.5"/>
+                                        <path d="M30 12 L30 18 M30 42 L30 48" stroke="#B83D4A" stroke-width="1.5"/>
+                                    </svg>
+                                </div>
+                                <h4 class="heading-3">DeepSeek智能推理</h4>
+                                <p class="helper-text">AI智能推理，创新配伍生成专属定制</p>
+                            </div>
+                            <div class="tech-step">
+                                <div class="tech-icon">
+                                    <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="12" y="18" width="36" height="28" rx="2" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                        <path d="M18 26 L42 26 M18 32 L38 32 M18 38 L34 38" stroke="#8a7a65" stroke-width="1"/>
+                                        <path d="M48 22 L52 26 L48 30" fill="none" stroke="#B83D4A" stroke-width="1.5"/>
+                                        <circle cx="52" cy="38" r="3" fill="#B83D4A"/>
+                                    </svg>
+                                </div>
+                                <h4 class="heading-3">个性化专属香方</h4>
+                                <p class="helper-text">合规合度，输出完整可制香方</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="philosophy-section">
+                <div class="section-inner">
+                    <h2 class="philosophy-title">
+                        <span class="philosophy-main">香本无形</span>
+                        <br>
+                        <span class="philosophy-rouge">AI合香，让无形变有香。</span>
+                    </h2>
+                    <p class="philosophy-text">每个人都拥有独一无二的经历，AI帮你把专属故事，凝为一味私藏香方。</p>
+                    <button class="btn-primary" data-page="experience">生成你的专属香方</button>
+                </div>
+            </section>
+        </section>
+
+        <section class="page" id="page-experience">
+            <div class="scene-tabs">
+                <button class="scene-tab" data-scene="travel">寻味山河</button>
+                <button class="scene-tab primary-tab" data-scene="character">觅味灵犀</button>
+                <button class="scene-tab" data-scene="memory">拾味光阴</button>
+            </div>
+
+            <div class="scene-content on" id="scene-travel">
+                <div class="scene-intro">
+                    <h3>寻味山河</h3>
+                    <p>通地理，懂风情。把一座城，调成一缕香。</p>
+                </div>
+                <div class="quick-tags">
+                    <span class="tag" data-value="杭州西湖雪天">杭州西湖雪天</span>
+                    <span class="tag" data-value="苏州园林书香">苏州园林书香</span>
+                    <span class="tag" data-value="塞北草原秋日">塞北草原秋日</span>
+                    <span class="tag" data-value="江南雨巷春深">江南雨巷春深</span>
+                    <span class="tag" data-value="敦煌大漠风沙">敦煌大漠风沙</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" class="input-field" id="input-travel" placeholder="描述你想要的地域场景">
+                    <button class="btn primary" id="btn-travel">生成香方</button>
+                </div>
+                <div class="status-tip" id="status-travel"></div>
+                <div class="result-area" id="result-travel"></div>
+            </div>
+
+            <div class="scene-content" id="scene-character">
+                <div class="scene-intro">
+                    <h3>觅味灵犀</h3>
+                    <p>晓古今，跨次元。为每个人，寻得独属的气味注脚。</p>
+                </div>
+                <div class="quick-tags">
+                    <span class="tag" data-value="上官婉儿">上官婉儿</span>
+                    <span class="tag" data-value="申鹤">申鹤</span>
+                    <span class="tag" data-value="张起灵">张起灵</span>
+                    <span class="tag" data-value="李白">李白</span>
+                    <span class="tag" data-value="林黛玉">林黛玉</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" class="input-field" id="input-character" placeholder="描述人物性格与特质">
+                    <button class="btn primary" id="btn-character">生成香方</button>
+                </div>
+                <div class="status-tip" id="status-character"></div>
+                <div class="result-area" id="result-character"></div>
+            </div>
+
+            <div class="scene-content" id="scene-memory">
+                <div class="scene-intro">
+                    <h3>拾味光阴</h3>
+                    <p>解心绪，精技法。将未言之语，炼为可闻之忆。</p>
+                </div>
+                <div class="quick-tags">
+                    <span class="tag" data-value="爷爷的书房">爷爷的书房</span>
+                    <span class="tag" data-value="初恋的校服">初恋的校服</span>
+                    <span class="tag" data-value="外婆家的厨房">外婆家的厨房</span>
+                    <span class="tag" data-value="雨天的咖啡馆">雨天的咖啡馆</span>
+                    <span class="tag" data-value="童年的夏夜">童年的夏夜</span>
+                </div>
+                <div class="input-row">
+                    <input type="text" class="input-field" id="input-memory" placeholder="描述您的气味记忆">
+                    <button class="btn primary" id="btn-memory">生成香方</button>
+                </div>
+                <div class="status-tip" id="status-memory"></div>
+                <div class="result-area" id="result-memory"></div>
+            </div>
+        </section>
+
+        <section class="page" id="page-shop">
+            <div class="shop-header">
+                <h2>合香工坊</h2>
+                <p>甄选天然香材，定制专属香品</p>
+            </div>
+
+            <div class="shop-tabs">
+                <button class="shop-tab on" data-shop="spices">香料选购</button>
+                <button class="shop-tab" data-shop="custom">工作室定制</button>
+            </div>
+
+            <div class="shop-content on" id="shop-spices">
+                <div class="product-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/香料展示-檀香.jpg" alt="檀香">
+                        </div>
+                        <div class="product-info">
+                            <h3>檀香</h3>
+                            <p class="product-desc">性温，香气醇厚，安神静心</p>
+                            <p class="product-price">¥128 / 10g</p>
+                            <button class="btn primary">加入购物车</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/香料展示-安息香.png" alt="安息香">
+                        </div>
+                        <div class="product-info">
+                            <h3>安息香</h3>
+                            <p class="product-desc">性平，香气清雅，开窍安神</p>
+                            <p class="product-price">¥98 / 10g</p>
+                            <button class="btn primary">加入购物车</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/香料展示-丁香.png" alt="丁香">
+                        </div>
+                        <div class="product-info">
+                            <h3>丁香</h3>
+                            <p class="product-desc">性温，香气浓郁，温中散寒</p>
+                            <p class="product-price">¥68 / 10g</p>
+                            <button class="btn primary">加入购物车</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/香料展示-麝香.png" alt="麝香">
+                        </div>
+                        <div class="product-info">
+                            <h3>麝香</h3>
+                            <p class="product-desc">性温，香气悠远，开窍醒神</p>
+                            <p class="product-price">¥328 / 5g</p>
+                            <button class="btn primary">加入购物车</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/香料展示-苏合香.jpg" alt="苏合香">
+                        </div>
+                        <div class="product-info">
+                            <h3>苏合香</h3>
+                            <p class="product-desc">性温，香气馥郁，开窍辟秽</p>
+                            <p class="product-price">¥158 / 10g</p>
+                            <button class="btn primary">加入购物车</button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/香料展示-腊茶.jpg" alt="腊茶">
+                        </div>
+                        <div class="product-info">
+                            <h3>腊茶</h3>
+                            <p class="product-desc">性凉，香气清芬，提神醒脑</p>
+                            <p class="product-price">¥48 / 20g</p>
+                            <button class="btn primary">加入购物车</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop-content" id="shop-custom">
+                <div class="custom-section">
+                    <div class="custom-card">
+                        <div class="custom-image">
+                            <img src="images/香包展示图.jpg" alt="手工香包">
+                        </div>
+                        <div class="custom-info">
+                            <h3>手工香包定制</h3>
+                            <p>根据您的专属香方，手工缝制精美香包，随身携带，香气随行。</p>
+                            <ul class="custom-features">
+                                <li>选用天然丝绸面料</li>
+                                <li>可定制刺绣图案</li>
+                                <li>内置AI调配香粉</li>
+                            </ul>
+                            <p class="product-price">¥298 / 个</p>
+                            <button class="btn primary">立即定制</button>
+                        </div>
+                    </div>
+                    <div class="custom-card">
+                        <div class="custom-image">
+                            <img src="images/香牌展示图.jpg" alt="香牌定制">
+                        </div>
+                        <div class="custom-info">
+                            <h3>香牌挂件定制</h3>
+                            <p>以香粉压制而成的精美挂件，佩戴于身，香气持久，兼具美观与实用。</p>
+                            <ul class="custom-features">
+                                <li>传统古法压制</li>
+                                <li>多种形状可选</li>
+                                <li>可刻字定制</li>
+                            </ul>
+                            <p class="product-price">¥188 / 个</p>
+                            <button class="btn primary">立即定制</button>
+                        </div>
+                    </div>
+                    <div class="custom-card">
+                        <div class="custom-image">
+                            <img src="images/香皂展示图.jpg" alt="香氛皂定制">
+                        </div>
+                        <div class="custom-info">
+                            <h3>香氛皂定制</h3>
+                            <p>将香方融入手工皂中，每一次沐浴都是一场香疗之旅。</p>
+                            <ul class="custom-features">
+                                <li>天然植物油脂</li>
+                                <li>温和不刺激</li>
+                                <li>多种香型可选</li>
+                            </ul>
+                            <p class="product-price">¥68 / 块</p>
+                            <button class="btn primary">立即定制</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page" id="page-gallery">
+            <div class="gallery-header">
+                <h2>推荐香方</h2>
+                <p>精选香方，可直接查看详情</p>
+            </div>
+
+            <div class="gallery-filters">
+                <button class="filter-chip on" data-filter="all">全部</button>
+                <button class="filter-chip" data-filter="travel">城市香</button>
+                <button class="filter-chip" data-filter="character">人物香</button>
+                <button class="filter-chip" data-filter="memory">记忆香</button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid"></div>
+
+            <div class="detail-modal" id="detail-modal" onclick="closeDetail()">
+                <div class="detail-panel" onclick="event.stopPropagation()">
+                    <button class="detail-close" onclick="closeDetail()">×</button>
+                    <div class="detail-content"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="page" id="page-about">
+            <div class="about-header">
+                <h2>关于AI合香</h2>
+                <p>ScentCraft · 让千年古方，在数字时代焕发新韵</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-section">
+                    <h3>缘起</h3>
+                    <p>AI合香，源自对中华香文化的热爱与敬畏。我们相信，每一味香方都承载着古人的智慧与情感，每一缕香气都能唤起内心深处的共鸣。</p>
+                </div>
+                <div class="about-section">
+                    <h3>愿景</h3>
+                    <p>我们希望通过AI技术，让传统合香文化走进现代生活，让每一个人都能体验到"让无形变有香"的奇妙旅程。</p>
+                </div>
+            </div>
+
+            <div class="about-quote">
+                <div class="quote-text">"让无形变有香"</div>
+            </div>
+        </section>
+
+        <footer class="foot">
+            <div class="seal">TRAE 参赛作品</div>
+            <div>AI合香 · ScentCraft · AI调香师</div>
+        </footer>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+{
+  "defaults": {
+    "travel": "f021",
+    "memory": "f013",
+    "character": "f001",
+    "_note": "每个场景类型在完全无匹配时的兜底香方ID"
+  },
+
+  "_algorithm_hints": {
+    "_note": "算法参数配置，可按需调整",
+    "score_cap_per_formula": 15
+  },
+
+  "tag_pool": {
+    "_note": "所有标签集中管理，用于第二步标签匹配；权重可调",
+    "mood": {
+      "宁静": 2, "庄重": 2, "悠远": 2, "治愈": 3, "活泼": 2,
+      "清冷": 2, "清雅": 2, "温暖": 3, "神秘": 2, "沉静": 2,
+      "内敛": 2, "开朗": 2, "元气": 2, "温婉": 2, "疏离": 2,
+      "明媚": 2, "软萌": 2, "暖心": 2, "深幽": 2, "矜贵": 2
+    },
+    "scene": {
+      "书房": 2, "卧室": 2, "古寺": 2, "山林": 2, "湖畔": 2,
+      "茶席": 2, "雨巷": 2, "雪山": 2, "江南": 2, "古镇": 2,
+      "茶山": 2, "茶园": 2, "雪地": 2, "湖面": 2, "江边": 2,
+      "院子": 2, "老房子": 2, "旧书": 2, "老家": 2, "巷子": 2
+    },
+    "season": {
+      "春": 1, "夏": 1, "秋": 1, "冬": 1
+    },
+    "weather": {
+      "雨": 2, "雪": 2, "晴": 1, "风": 1
+    }
+  },
+
+  "common_keywords": {
+    "_note": "所有场景类型共享的通用关键词，用于第一步精准匹配",
+    "夏天": {"formula_id": "f022", "weight": 2},
+    "冬天": {"formula_id": "f014", "weight": 2},
+    "春天": {"formula_id": "f020", "weight": 2},
+    "秋天": {"formula_id": "f021", "weight": 2},
+    "雨天": {"formula_id": "f018", "weight": 3},
+    "雪天": {"formula_id": "f014", "weight": 3},
+    "晴天": {"formula_id": "f013", "weight": 2},
+    "刮风": {"formula_id": "f021", "weight": 2},
+    "黄昏": {"formula_id": "f013", "weight": 2},
+    "午后": {"formula_id": "f022", "weight": 2}
+  },
+
+  "geo_scenes": {
+    "_note": "寻味山河专用：地理/场景关键词",
+    "_groups": {
+      "岚山组": ["岚山", "山林", "古寺", "寺庙", "山里", "秋日", "秋天", "竹林", "深山"],
+      "断桥残雪组": ["断桥", "残雪", "西湖", "杭州", "雪天", "湖心亭", "雪山", "雪地", "寒冬", "梅花", "大雪", "雪景"],
+      "雨巷江南组": ["雨巷", "江南", "苏州", "古镇", "春雨", "巷子", "石板路", "乌镇"],
+      "湖畔春日组": ["湖畔", "湖边", "湖面", "江边", "春日", "茶山", "茶园"],
+      "茶席组": ["茶席", "煮茶"]
+    },
+    "keywords": {
+      "岚山": {"formula_id": "f021", "weight": 10},
+      "山林": {"formula_id": "f021", "weight": 8},
+      "古寺": {"formula_id": "f021", "weight": 8},
+      "寺庙": {"formula_id": "f021", "weight": 8},
+      "山里": {"formula_id": "f021", "weight": 6},
+      "秋日": {"formula_id": "f021", "weight": 6},
+      "秋天": {"formula_id": "f021", "weight": 6},
+      "竹林": {"formula_id": "f021", "weight": 5},
+      "深山": {"formula_id": "f021", "weight": 5},
+
+      "断桥": {"formula_id": "f014", "weight": 10},
+      "残雪": {"formula_id": "f014", "weight": 10},
+      "西湖": {"formula_id": "f014", "weight": 8},
+      "杭州": {"formula_id": "f014", "weight": 8},
+      "雪天": {"formula_id": "f014", "weight": 7},
+      "湖心亭": {"formula_id": "f014", "weight": 6},
+      "雪山": {"formula_id": "f014", "weight": 8},
+      "雪地": {"formula_id": "f014", "weight": 7},
+      "寒冬": {"formula_id": "f014", "weight": 6},
+      "梅花": {"formula_id": "f014", "weight": 6},
+      "大雪": {"formula_id": "f014", "weight": 5},
+      "雪景": {"formula_id": "f014", "weight": 5},
+
+      "雨巷": {"formula_id": "f018", "weight": 10},
+      "江南": {"formula_id": "f018", "weight": 8},
+      "苏州": {"formula_id": "f018", "weight": 8},
+      "古镇": {"formula_id": "f018", "weight": 7},
+      "春雨": {"formula_id": "f018", "weight": 6},
+      "巷子": {"formula_id": "f018", "weight": 6},
+      "石板路": {"formula_id": "f018", "weight": 5},
+      "乌镇": {"formula_id": "f018", "weight": 5},
+
+      "湖畔": {"formula_id": "f020", "weight": 10},
+      "湖边": {"formula_id": "f020", "weight": 8},
+      "湖面": {"formula_id": "f020", "weight": 8},
+      "江边": {"formula_id": "f020", "weight": 7},
+      "春日": {"formula_id": "f020", "weight": 6},
+      "茶山": {"formula_id": "f020", "weight": 7},
+      "茶园": {"formula_id": "f020", "weight": 7},
+
+      "茶席": {"formula_id": "f008", "weight": 8},
+      "煮茶": {"formula_id": "f008", "weight": 6}
+    }
+  },
+
+  "memory_scenes": {
+    "_note": "拾味光阴专用：记忆/情绪关键词",
+    "_groups": {
+      "书房组": ["书房", "爷爷", "旧书", "老书桌", "书页", "书斋"],
+      "童年组": ["童年", "老家", "外婆", "奶奶", "院子", "老房子", "旧时光", "小时候", "放学", "老巷", "阁楼", "午后", "黄昏"],
+      "温暖治愈组": ["温暖", "治愈", "回忆", "阳光"],
+      "卧室组": ["卧室", "安眠", "帐中香"]
+    },
+    "keywords": {
+      "书房": {"formula_id": "f008", "weight": 10},
+      "爷爷": {"formula_id": "f008", "weight": 8},
+      "旧书": {"formula_id": "f008", "weight": 8},
+      "老书桌": {"formula_id": "f008", "weight": 7},
+      "书页": {"formula_id": "f008", "weight": 6},
+      "书斋": {"formula_id": "f008", "weight": 8},
+
+      "童年": {"formula_id": "f022", "weight": 10},
+      "老家": {"formula_id": "f022", "weight": 8},
+      "外婆": {"formula_id": "f022", "weight": 8},
+      "奶奶": {"formula_id": "f022", "weight": 8},
+      "院子": {"formula_id": "f022", "weight": 7},
+      "老房子": {"formula_id": "f022", "weight": 7},
+      "旧时光": {"formula_id": "f022", "weight": 6},
+      "小时候": {"formula_id": "f022", "weight": 8},
+      "放学": {"formula_id": "f022", "weight": 7},
+      "老巷": {"formula_id": "f022", "weight": 7},
+      "阁楼": {"formula_id": "f022", "weight": 6},
+      "午后": {"formula_id": "f022", "weight": 6},
+      "黄昏": {"formula_id": "f013", "weight": 6},
+
+      "温暖": {"formula_id": "f013", "weight": 8},
+      "治愈": {"formula_id": "f013", "weight": 8},
+      "回忆": {"formula_id": "f013", "weight": 6},
+      "阳光": {"formula_id": "f013", "weight": 6},
+
+      "卧室": {"formula_id": "f004", "weight": 10},
+      "安眠": {"formula_id": "f004", "weight": 8},
+      "帐中香": {"formula_id": "f004", "weight": 10},
+
+      "夏夜": {"formula_id": "f022", "weight": 7},
+      "蒲扇": {"formula_id": "f022", "weight": 6},
+      "星空": {"formula_id": "f017", "weight": 6}
+    }
+  },
+
+  "character_traits": {
+    "_note": "觅味灵犀专用：角色气质关键词",
+    "_groups": {
+      "温柔治愈组": ["温柔", "治愈", "暖心", "软萌", "邻家", "可爱"],
+      "清冷高冷组": ["清冷", "高冷", "谪仙", "疏离", "冰山", "酷", "飒", "仙气"],
+      "端庄雅致组": ["端庄", "雅致", "大家闺秀", "温婉", "书香", "优雅", "成熟", "傲娇", "大小姐", "贵气", "矜贵"],
+      "活泼开朗组": ["活泼", "开朗", "元气", "少年", "明媚"],
+      "神秘沉静组": ["神秘", "沉静", "内敛", "腹黑", "深幽", "霸道"]
+    },
+    "keywords": {
+      "温柔": {"formula_id": "f013", "weight": 8},
+      "治愈": {"formula_id": "f013", "weight": 8},
+      "暖心": {"formula_id": "f013", "weight": 7},
+      "软萌": {"formula_id": "f013", "weight": 7},
+      "邻家": {"formula_id": "f013", "weight": 6},
+      "可爱": {"formula_id": "f013", "weight": 7},
+
+      "清冷": {"formula_id": "f014", "weight": 8},
+      "高冷": {"formula_id": "f014", "weight": 8},
+      "谪仙": {"formula_id": "f014", "weight": 7},
+      "疏离": {"formula_id": "f014", "weight": 7},
+      "冰山": {"formula_id": "f014", "weight": 6},
+      "酷": {"formula_id": "f014", "weight": 7},
+      "飒": {"formula_id": "f014", "weight": 7},
+      "仙气": {"formula_id": "f014", "weight": 7},
+
+      "端庄": {"formula_id": "f001", "weight": 8},
+      "雅致": {"formula_id": "f001", "weight": 8},
+      "大家闺秀": {"formula_id": "f001", "weight": 7},
+      "温婉": {"formula_id": "f001", "weight": 7},
+      "书香": {"formula_id": "f001", "weight": 6},
+      "优雅": {"formula_id": "f001", "weight": 7},
+      "成熟": {"formula_id": "f001", "weight": 7},
+      "傲娇": {"formula_id": "f001", "weight": 7},
+      "大小姐": {"formula_id": "f001", "weight": 7},
+      "贵气": {"formula_id": "f001", "weight": 6},
+      "矜贵": {"formula_id": "f001", "weight": 6},
+
+      "活泼": {"formula_id": "f015", "weight": 8},
+      "开朗": {"formula_id": "f015", "weight": 8},
+      "元气": {"formula_id": "f015", "weight": 7},
+      "少年": {"formula_id": "f015", "weight": 7},
+      "明媚": {"formula_id": "f015", "weight": 6},
+
+      "神秘": {"formula_id": "f017", "weight": 8},
+      "沉静": {"formula_id": "f017", "weight": 8},
+      "内敛": {"formula_id": "f017", "weight": 7},
+      "腹黑": {"formula_id": "f017", "weight": 6},
+      "深幽": {"formula_id": "f017", "weight": 6},
+      "霸道": {"formula_id": "f017", "weight": 7}
+    }
+  }
+}
