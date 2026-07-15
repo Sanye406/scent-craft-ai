@@ -790,8 +790,7 @@ function initMiniInkEffect() {
 }
 
 function initImagePaths() {
-    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-    const basePath = isLocal ? 'images' : 'https://github.com/Sanye406/scent-craft-ai/raw/master/images-optimized';
+    const basePath = 'images';
     
     document.querySelectorAll('[data-img]').forEach(el => {
         const imgName = el.getAttribute('data-img');

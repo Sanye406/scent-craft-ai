@@ -20,6 +20,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.static(join(__dirname, 'dist')));
+app.use('/images', express.static(join(__dirname, 'images')));
 
 
 
