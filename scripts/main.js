@@ -789,7 +789,23 @@ function initMiniInkEffect() {
     });
 }
 
+function initImagePaths() {
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+    const basePath = isLocal ? 'images' : 'https://github.com/Sanye406/scent-craft-ai/raw/master/images-optimized';
+    
+    document.querySelectorAll('[data-img]').forEach(el => {
+        const imgName = el.getAttribute('data-img');
+        const fullPath = `${basePath}/${imgName}`;
+        if (el.tagName === 'SOURCE') {
+            el.srcset = fullPath;
+        } else if (el.tagName === 'IMG') {
+            el.src = fullPath;
+        }
+    });
+}
+
 function init() {
+    initImagePaths();
     initPageNavigation();
     initSceneTabs();
     initShopTabs();

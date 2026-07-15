@@ -626,9 +626,8 @@ body::before{
   background:rgba(245,240,232,.6);font-family:"Noto Serif SC",serif;font-size:10px;color:#5a4a3a;
   border-radius:3px;
 }
-.poem-footer{display:flex;flex-direction:column;align-items:center;gap:6px;padding-top:6px;position:relative;z-index:2}
+.poem-footer{display:flex;flex-direction:column;align-items:center;gap:4px;padding-top:12px;padding-bottom:8px;position:relative;z-index:2}
 .footer-text{font-size:9px;color:#9ca3af;margin:0;font-family:"Noto Serif SC",serif}
-.footer-logo{width:24px;height:24px;object-fit:contain}
 .poem-dots{
   position:absolute;width:100%;height:100%;top:0;left:0;
   background-image:radial-gradient(circle,rgba(255,192,192,.15) 1px,transparent 1px);
@@ -642,6 +641,7 @@ body::before{
   cursor:pointer;transition:all .3s;
 }
 .poem-btn:hover{background:rgba(184,50,42,.06)}
+.demo-note{font-size:12px;color:#888;opacity:.8;text-align:center;margin-top:16px;line-height:1.5}
 
 .shop-header{text-align:center;padding:60px 0 32px}
 .shop-header h2{font-family:"Playfair Display",serif;font-size:36px;letter-spacing:.1em;color:var(--ink);font-weight:500}

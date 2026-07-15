@@ -8,7 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="preload" href="images/logo.webp" as="image" type="image/webp">
+    <script>
+        const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const basePath = isLocal ? 'images' : 'https://github.com/Sanye406/scent-craft-ai/raw/master/images-optimized';
+    </script>
 </head>
 <body>
     <div class="ink-overlay"></div>
@@ -17,12 +20,9 @@
 
     <nav class="topnav" id="topnav">
         <div class="brand">
-            <picture>
-                <source srcset="images/logo.webp" type="image/webp">
-                <img src="images/logo.png" alt="AI合香" class="brand-logo" width="40" height="40">
-            </picture>
+            <img class="brand-logo" src="" alt="合香有方" loading="lazy" data-img="logo.webp">
             <div class="brand-text">
-                <h1>AI合香</h1>
+                <h1>合香有方</h1>
                 <p>ScentCraft</p>
             </div>
         </div>
@@ -108,8 +108,8 @@
                     <div class="feature-scene feature-travel" data-page="experience" data-scene="travel">
                         <div class="feature-image-container">
                             <picture>
-                                <source srcset="images/首页-寻味山河.webp" type="image/webp">
-                                <img src="images/首页-寻味山河.png" class="feature-image" alt="寻味山河" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="首页-寻味山河.webp">
+                                <img src="" class="feature-image" alt="寻味山河" loading="lazy" data-img="首页-寻味山河.webp">
                             </picture>
                         </div>
                         <div class="feature-content feature-content-left">
@@ -126,8 +126,8 @@
                     <div class="feature-scene feature-character" data-page="experience" data-scene="character">
                         <div class="feature-image-container">
                             <picture>
-                                <source srcset="images/首页-觅味灵犀.webp" type="image/webp">
-                                <img src="images/首页-觅味灵犀.png" class="feature-image" alt="觅味灵犀" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="首页-觅味灵犀.webp">
+                                <img src="" class="feature-image" alt="觅味灵犀" loading="lazy" data-img="首页-觅味灵犀.webp">
                             </picture>
                         </div>
                         <div class="feature-content feature-content-right">
@@ -145,8 +145,8 @@
                     <div class="feature-scene feature-memory" data-page="experience" data-scene="memory">
                         <div class="feature-image-container">
                             <picture>
-                                <source srcset="images/首页-拾味光阴.webp" type="image/webp">
-                                <img src="images/首页-拾味光阴.png" class="feature-image" alt="拾味光阴" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="首页-拾味光阴.webp">
+                                <img src="" class="feature-image" alt="拾味光阴" loading="lazy" data-img="首页-拾味光阴.webp">
                             </picture>
                         </div>
                         <div class="feature-content feature-content-left">
@@ -322,8 +322,8 @@
                     <div class="product-card">
                         <div class="product-image">
                             <picture>
-                                <source srcset="images/香料展示-檀香.webp" type="image/webp">
-                                <img src="images/香料展示-檀香.jpg" alt="檀香" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香料展示-檀香.webp">
+                                <img src="" alt="檀香" loading="lazy" data-img="香料展示-檀香.webp">
                             </picture>
                         </div>
                         <div class="product-info">
@@ -336,8 +336,8 @@
                     <div class="product-card">
                         <div class="product-image">
                             <picture>
-                                <source srcset="images/香料展示-安息香.webp" type="image/webp">
-                                <img src="images/香料展示-安息香.png" alt="安息香" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香料展示-安息香.webp">
+                                <img src="" alt="安息香" loading="lazy" data-img="香料展示-安息香.webp">
                             </picture>
                         </div>
                         <div class="product-info">
@@ -350,8 +350,8 @@
                     <div class="product-card">
                         <div class="product-image">
                             <picture>
-                                <source srcset="images/香料展示-丁香.webp" type="image/webp">
-                                <img src="images/香料展示-丁香.png" alt="丁香" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香料展示-丁香.webp">
+                                <img src="" alt="丁香" loading="lazy" data-img="香料展示-丁香.webp">
                             </picture>
                         </div>
                         <div class="product-info">
@@ -364,8 +364,8 @@
                     <div class="product-card">
                         <div class="product-image">
                             <picture>
-                                <source srcset="images/香料展示-麝香.webp" type="image/webp">
-                                <img src="images/香料展示-麝香.png" alt="麝香" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香料展示-麝香.webp">
+                                <img src="" alt="麝香" loading="lazy" data-img="香料展示-麝香.webp">
                             </picture>
                         </div>
                         <div class="product-info">
@@ -378,8 +378,8 @@
                     <div class="product-card">
                         <div class="product-image">
                             <picture>
-                                <source srcset="images/香料展示-苏合香.webp" type="image/webp">
-                                <img src="images/香料展示-苏合香.jpg" alt="苏合香" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香料展示-苏合香.webp">
+                                <img src="" alt="苏合香" loading="lazy" data-img="香料展示-苏合香.webp">
                             </picture>
                         </div>
                         <div class="product-info">
@@ -392,8 +392,8 @@
                     <div class="product-card">
                         <div class="product-image">
                             <picture>
-                                <source srcset="images/香料展示-腊茶.webp" type="image/webp">
-                                <img src="images/香料展示-腊茶.jpg" alt="腊茶" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香料展示-腊茶.webp">
+                                <img src="" alt="腊茶" loading="lazy" data-img="香料展示-腊茶.webp">
                             </picture>
                         </div>
                         <div class="product-info">
@@ -404,6 +404,7 @@
                         </div>
                     </div>
                 </div>
+                <p class="demo-note">香材选购为交互演示模块，仅展示品类与参数，真实线上采购、库存、支付功能将在后续迭代实现</p>
             </div>
 
             <div class="shop-content" id="shop-custom">
@@ -411,8 +412,8 @@
                     <div class="custom-card">
                         <div class="custom-image">
                             <picture>
-                                <source srcset="images/香包展示图.webp" type="image/webp">
-                                <img src="images/香包展示图.jpg" alt="手工香包" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香包展示图.webp">
+                                <img src="" alt="手工香包" loading="lazy" data-img="香包展示图.webp">
                             </picture>
                         </div>
                         <div class="custom-info">
@@ -430,8 +431,8 @@
                     <div class="custom-card">
                         <div class="custom-image">
                             <picture>
-                                <source srcset="images/香牌展示图.webp" type="image/webp">
-                                <img src="images/香牌展示图.jpg" alt="香牌定制" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香牌展示图.webp">
+                                <img src="" alt="香牌定制" loading="lazy" data-img="香牌展示图.webp">
                             </picture>
                         </div>
                         <div class="custom-info">
@@ -449,8 +450,8 @@
                     <div class="custom-card">
                         <div class="custom-image">
                             <picture>
-                                <source srcset="images/香皂展示图.webp" type="image/webp">
-                                <img src="images/香皂展示图.jpg" alt="香氛皂定制" loading="lazy">
+                                <source srcset="" type="image/webp" data-img="香皂展示图.webp">
+                                <img src="" alt="香氛皂定制" loading="lazy" data-img="香皂展示图.webp">
                             </picture>
                         </div>
                         <div class="custom-info">
@@ -466,6 +467,7 @@
                         </div>
                     </div>
                 </div>
+                <p class="demo-note">工作室定制仅做前端交互演示，表单提交、商家对接、定制订单管理为二期迭代功能</p>
             </div>
         </section>
 

@@ -71,7 +71,8 @@ function renderDetailCard(formula) {
     if (!formula) return '';
     
     const ingredients = formula.ingredients || [];
-    const ingredientLines = ingredients.map(ing => `
+    const validIngredients = ingredients.filter(ing => (ing.amount || 0) > 0);
+    const ingredientLines = validIngredients.map(ing => `
         <div class="detail-ingredient-item">
             <span class="ingredient-role ${ing.role}">${ing.role}</span>
             <span class="ingredient-name">${ing.name}</span>
@@ -197,7 +198,8 @@ function renderPoemCard(formula) {
     if (!formula) return '';
     
     const ingredients = formula.ingredients || [];
-    const displayIngredients = ingredients.slice(0, 6);
+    const validIngredients = ingredients.filter(ing => (ing.amount || 0) > 0);
+    const displayIngredients = validIngredients.slice(0, 6);
     
     return `
         <div class="poem-card">
@@ -225,8 +227,7 @@ function renderPoemCard(formula) {
                 </div>
                 
                 <div class="poem-footer">
-                    <span class="footer-text">合香有方AI·让无形变有香</span>
-                    <img src="./images/logo.png" alt="logo" class="footer-logo">
+                    <span class="footer-text">合香有方AI · 让无形变有香</span>
                 </div>
                 
                 <div class="poem-dots"></div>
@@ -235,6 +236,7 @@ function renderPoemCard(formula) {
                 <button class="poem-btn" onclick="showToast('分享成功')">分享</button>
                 <button class="poem-btn" onclick="showToast('下载成功')">下载</button>
             </div>
+            <p class="demo-note">演示交互：仅弹窗模拟成功，真实文件下载、社交分享功能待二期开发</p>
         </div>
     `;
 }
