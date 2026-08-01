@@ -22,6 +22,46 @@ app.use(express.json());
 app.use(express.static(join(__dirname, 'dist')));
 app.use('/images', express.static(join(__dirname, 'images')));
 
+// ===== 调香结果统计 =====
+// outcome: ai_success | ai_fail | validate_fail | monarch_fail | exception | fallback_switch
+const STATS = {
+  travel: { total: 0, ai_success: 0, ai_fail: 0, validate_fail: 0, monarch_fail: 0, exception: 0 },
+  memory: { total: 0, ai_success: 0, ai_fail: 0, validate_fail: 0, monarch_fail: 0, exception: 0 },
+  character: { total: 0, ai_success: 0, ai_fail: 0, validate_fail: 0, monarch_fail: 0, exception: 0 },
+  adjust: { total: 0, ai_success: 0, ai_fail: 0, validate_fail: 0, monarch_fail: 0, exception: 0, fallback_switch: 0 }
+};
+
+function recordStats(scene, outcome) {
+  if (!STATS[scene]) return;
+  STATS[scene].total += 1;
+  if (STATS[scene][outcome] !== undefined) STATS[scene][outcome] += 1;
+  const s = STATS[scene];
+  const fallback = s.total - s.ai_success;
+  console.log(`[STATS] ${scene} → ${outcome} | 累计 ${s.total} 次 | AI成功 ${s.ai_success} (${(s.ai_success / s.total * 100).toFixed(1)}%) | 兜底 ${fallback} (${(fallback / s.total * 100).toFixed(1)}%)`);
+}
+
+app.get('/api/stats', (req, res) => {
+  const report = {};
+  for (const [scene, s] of Object.entries(STATS)) {
+    const fallback = s.total - s.ai_success;
+    report[scene] = {
+      ...s,
+      fallback,
+      ai_success_rate: s.total > 0 ? +(s.ai_success / s.total * 100).toFixed(1) : 0,
+      fallback_rate: s.total > 0 ? +(fallback / s.total * 100).toFixed(1) : 0
+    };
+  }
+  res.json({ success: true, data: report });
+});
+
+app.post('/api/stats/reset', (req, res) => {
+  for (const scene of Object.keys(STATS)) {
+    for (const k of Object.keys(STATS[scene])) STATS[scene][k] = 0;
+  }
+  res.json({ success: true, message: '统计已重置' });
+});
+// ===== 统计结束 =====
+
 
 
 app.post('/api/travel-fragrance', async (req, res) => {
@@ -47,34 +87,38 @@ app.post('/api/travel-fragrance', async (req, res) => {
     
     if (!aiResult) {
       const finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false };
+      recordStats('travel', 'ai_fail');
       return res.json({ success: true, data: finalFormula, is_ai_generated: false });
     }
 
     const dryRegion = isDryRegion(userScene);
     aiResult.isDryRegion = dryRegion;
-    
+
     const repairResult = validateAndRepair(aiResult, baseFormula, knowledgeBase.ingredients);
     console.log('校验修复结果：', repairResult.isValid, repairResult.warnings.length > 0 ? '警告:' + repairResult.warnings.join('; ') : '');
 
     let finalFormula;
     let isAiGenerated = false;
-    
+
     if (repairResult.isValid) {
       const monarchCompliance = validateMonarchCompliance(repairResult.repairedFormula, 'travel');
       console.log('君药合规校验：', monarchCompliance.valid, monarchCompliance.message);
-      
+
       if (!monarchCompliance.valid) {
         console.warn('君药不合规，返回基底古方');
         finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: [...repairResult.warnings, monarchCompliance.message] };
+        recordStats('travel', 'monarch_fail');
       } else {
         finalFormula = repairFormula(repairResult.repairedFormula, baseFormula, knowledgeBase.ingredients);
         finalFormula = { ...baseFormula, ...finalFormula, formula_type: 'AI定制调香', is_ai_generated: true, warnings: repairResult.warnings };
         isAiGenerated = true;
         console.log('校验修复通过，返回AI定制香方');
+        recordStats('travel', 'ai_success');
       }
     } else {
       console.warn('校验修复失败，返回基底古方');
       finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: repairResult.warnings };
+      recordStats('travel', 'validate_fail');
     }
 
     res.json({ success: true, data: finalFormula, is_ai_generated: isAiGenerated, formula_type: isAiGenerated ? 'AI定制调香' : '古籍经典香方' });
@@ -82,6 +126,7 @@ app.post('/api/travel-fragrance', async (req, res) => {
   } catch (err) {
     console.error('接口异常:', err.message, err.stack);
     const fallbackFormula = knowledgeBase.getDefaultFormula('travel');
+    recordStats('travel', 'exception');
     res.json({ success: true, data: { ...fallbackFormula, formula_type: '古籍经典香方', is_ai_generated: false }, is_ai_generated: false, formula_type: '古籍经典香方', warnings: [], validation_errors: [] });
   }
 });
@@ -109,38 +154,42 @@ app.post('/api/memory-fragrance', async (req, res) => {
     
     if (!aiResult) {
       const finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false };
+      recordStats('memory', 'ai_fail');
       return res.json({ success: true, data: finalFormula, is_ai_generated: false });
     }
 
     aiResult.isDryRegion = false;
-    
+
     const repairResult = validateAndRepair(aiResult, baseFormula, knowledgeBase.ingredients);
     console.log('校验修复结果：', repairResult.isValid, repairResult.warnings.length > 0 ? '警告:' + repairResult.warnings.join('; ') : '');
 
     let finalFormula;
     let isAiGenerated = false;
-    
+
     if (repairResult.isValid) {
       const monarchCompliance = validateMonarchCompliance(repairResult.repairedFormula, 'memory');
       console.log('君药合规校验：', monarchCompliance.valid, monarchCompliance.message);
-      
+
       if (!monarchCompliance.valid) {
         console.warn('君药不合规，返回基底古方');
         finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: [...repairResult.warnings, monarchCompliance.message] };
+        recordStats('memory', 'monarch_fail');
       } else {
         finalFormula = repairFormula(repairResult.repairedFormula, baseFormula, knowledgeBase.ingredients);
         finalFormula = { ...baseFormula, ...finalFormula, formula_type: 'AI定制调香', is_ai_generated: true, warnings: repairResult.warnings };
-        
+
         if (finalFormula.ai_confidence !== undefined) {
           finalFormula.ai_confidence = Number(finalFormula.ai_confidence);
         }
-        
+
         isAiGenerated = true;
         console.log('校验修复通过，返回AI定制香方');
+        recordStats('memory', 'ai_success');
       }
     } else {
       console.warn('校验修复失败，返回基底古方');
       finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: repairResult.warnings };
+      recordStats('memory', 'validate_fail');
     }
 
     res.json({
@@ -153,6 +202,7 @@ app.post('/api/memory-fragrance', async (req, res) => {
   } catch (err) {
     console.error('接口异常:', err.message, err.stack);
     const fallbackFormula = knowledgeBase.getDefaultFormula('memory');
+    recordStats('memory', 'exception');
     res.json({
       success: true,
       data: { ...fallbackFormula, formula_type: '古籍经典香方', is_ai_generated: false },
@@ -190,38 +240,42 @@ app.post('/api/character-fragrance', async (req, res) => {
 
     if (aiResult) {
       aiResult.isDryRegion = false;
-      
+
       const repairResult = validateAndRepair(aiResult, baseFormula, knowledgeBase.ingredients);
       console.log('3. 校验结果：', repairResult.isValid, repairResult.isValid ? '' : '失败，触发兜底');
 
       if (repairResult.isValid) {
         const monarchCompliance = validateMonarchCompliance(repairResult.repairedFormula, 'character');
         console.log('4. 君药合规校验：', monarchCompliance.valid, monarchCompliance.message);
-        
+
         if (!monarchCompliance.valid) {
           console.warn('⚠️ 君药不合规，返回基底古籍香方');
           finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: [...repairResult.warnings, monarchCompliance.message] };
+          recordStats('character', 'monarch_fail');
         } else {
           finalFormula = repairFormula(repairResult.repairedFormula, baseFormula, knowledgeBase.ingredients);
           finalFormula = { ...baseFormula, ...finalFormula, formula_type: 'AI定制角色香', is_ai_generated: true, warnings: repairResult.warnings };
-          
+
           if (finalFormula.ai_confidence !== undefined) {
             finalFormula.ai_confidence = Number(finalFormula.ai_confidence);
           }
-          
+
           isAiGenerated = true;
           console.log('4. 自动修复完成，返回AI定制香方');
+          recordStats('character', 'ai_success');
         }
       } else {
         console.warn('⚠️ 校验不通过，返回基底古籍香方');
         finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: repairResult.warnings };
+        recordStats('character', 'validate_fail');
       }
     } else {
       finalFormula = { ...baseFormula, formula_type: '古籍经典香方', is_ai_generated: false };
+      recordStats('character', 'ai_fail');
     }
 
     finalFormula = knowledgeBase.sanitizeFormula(finalFormula);
-    
+
     res.json({
       success: true,
       data: finalFormula,
@@ -233,6 +287,7 @@ app.post('/api/character-fragrance', async (req, res) => {
     console.error('接口异常:', err.message, err.stack);
     const fallbackFormula = knowledgeBase.getDefaultFormula('character');
     const finalFormula = knowledgeBase.sanitizeFormula({ ...fallbackFormula, formula_type: '古籍经典香方', is_ai_generated: false });
+    recordStats('character', 'exception');
     res.json({
       success: true,
       data: finalFormula,
@@ -266,14 +321,15 @@ app.post('/api/fragrance-adjust', async (req, res) => {
       if (repairResult.isValid) {
         const monarchDeduplication = validateMonarchDeduplication(repairResult.repairedFormula, lastMonarch);
         console.log('君药去重校验：', monarchDeduplication.valid, monarchDeduplication.message);
-        
+
         if (!monarchDeduplication.valid) {
           console.warn('⚠️ 君药去重校验失败，强制切换基底');
+          STATS.adjust.fallback_switch += 1;
           const currentMonarchs = baseFormula.ingredients?.filter(ing => ing.role === '君').map(ing => ing.name) || [];
           const excludeMonarchs = [...currentMonarchs, lastMonarch].filter(Boolean);
           const newBaseFormula = knowledgeBase.matchBaseFormulaV2(adjustRequest, sceneType, excludeMonarchs, userId);
           console.log('切换新基底：', newBaseFormula.name);
-          
+
           const newAiResult = await generateAdjustFormula(newBaseFormula, knowledgeBase.ingredients, adjustRequest);
           if (newAiResult) {
             const newRepairResult = validateAndRepair(newAiResult, newBaseFormula, knowledgeBase.ingredients);
@@ -281,23 +337,29 @@ app.post('/api/fragrance-adjust', async (req, res) => {
               finalFormula = repairFormula(newRepairResult.repairedFormula, newBaseFormula, knowledgeBase.ingredients);
               finalFormula = { ...newBaseFormula, ...finalFormula, formula_type: 'AI微调定制香', is_ai_generated: true, warnings: [...newRepairResult.warnings, '已切换基底避免君药重复'] };
               isAiGenerated = true;
+              recordStats('adjust', 'ai_success');
             } else {
               finalFormula = { ...newBaseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: ['已切换基底，AI微调失败'] };
+              recordStats('adjust', 'validate_fail');
             }
           } else {
             finalFormula = { ...newBaseFormula, formula_type: '古籍经典香方', is_ai_generated: false, warnings: ['已切换基底，AI微调失败'] };
+            recordStats('adjust', 'ai_fail');
           }
         } else {
           finalFormula = repairFormula(repairResult.repairedFormula, baseFormula, knowledgeBase.ingredients);
           finalFormula = { ...baseFormula, ...finalFormula, formula_type: 'AI微调定制香', is_ai_generated: true };
           isAiGenerated = true;
+          recordStats('adjust', 'ai_success');
         }
       } else {
         console.warn('⚠️ 微调校验不通过，返回原方');
         finalFormula = { ...baseFormula, formula_type: baseFormula.formula_type || '古籍经典香方', is_ai_generated: baseFormula.is_ai_generated || false };
+        recordStats('adjust', 'validate_fail');
       }
     } else {
       finalFormula = { ...baseFormula, formula_type: baseFormula.formula_type || '古籍经典香方', is_ai_generated: baseFormula.is_ai_generated || false };
+      recordStats('adjust', 'ai_fail');
     }
 
     finalFormula = knowledgeBase.sanitizeFormula(finalFormula);
@@ -306,6 +368,7 @@ app.post('/api/fragrance-adjust', async (req, res) => {
   } catch (err) {
     console.error('微调接口异常:', err.message, err.stack);
     const finalFormula = knowledgeBase.sanitizeFormula({ ...baseFormula, formula_type: baseFormula.formula_type || '古籍经典香方', is_ai_generated: baseFormula.is_ai_generated || false });
+    recordStats('adjust', 'exception');
     res.json({ success: true, data: finalFormula, is_ai_generated: false, formula_type: finalFormula.formula_type });
   }
 });
